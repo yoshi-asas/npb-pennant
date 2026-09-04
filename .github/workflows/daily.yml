@@ -1,0 +1,89 @@
+name: daily update
+
+# 毎日 JST 01:00（= UTC 16:00）。その日の試合が全て終わってから走らせる。
+on:
+  schedule:
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+env:
+  SEASON: '2026'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # 計算エンジンが壊れていたら、データを触る前に落とす
+      - name: 単体テスト
+        run: npm test
+
+      - name: 型チェック
+        run: npm run check
+
+      # push で走ったときはスクレイプせず、コミット済みのデータでビルドだけする
+      - name: NPB から試合結果を取得
+        if: github.event_name != 'push'
+        run: npm run scrape -- --year "$SEASON"
+
+      # 復元した順位表が NPB 公式と1件でも食い違ったらここで落ちる。
+      # 壊れたデータで上書きするより、前日の結果を出し続けるほうが害が小さい。
+      - name: NPB 公式順位表と照合
+        if: github.event_name != 'push'
+        run: npx tsx scripts/verify-standings.ts "$SEASON"
+
+      - name: 優勝確率を計算
+        run: npm run snapshot -- --year "$SEASON"
+
+      - name: データの更新をコミット
+        if: github.event_name != 'push'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "data/$SEASON"
+          if git diff --cached --quiet; then
+            echo "更新なし"
+          else
+            git commit -m "データ更新: $(date -u -d '+9 hours' '+%Y-%m-%d')"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+        id: pages
+
+      - run: npm run build
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-sans:
+		'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', Meiryo, system-ui, sans-serif;
+	--font-mono: 'SFMono-Regular', Consolas, 'Roboto Mono', monospace;
+}
+
+:root {
+	color-scheme: light dark;
+
+	--ink: #14181d;
+	--ink-soft: #5a6472;
+	--ink-faint: #8b95a3;
+	--surface: #f7f8fa;
+	--card: #ffffff;
+	--line: #e2e6ec;
+	--line-strong: #cbd2dc;
+	--accent: #1f6feb;
+	--good: #12855a;
+	--bad: #b4252d;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--ink: #e8ecf2;
+		--ink-soft: #9aa5b4;
+		--ink-faint: #6b7686;
+		--surface: #0e1116;
+		--card: #161b22;
+		--line: #262d37;
+		--line-strong: #3a434f;
+		--accent: #58a6ff;
+		--good: #3fb950;
+		--bad: #f85149;
+	}
+}
+
+body {
+	background: var(--surface);
+	color: var(--ink);
+	font-family: var(--font-sans);
+	-webkit-font-smoothing: antialiased;
+}
+
+/* 数字を等幅・桁揃えにする。順位表とグラフの読みやすさに直結する */
+.tnum {
+	font-variant-numeric: tabular-nums;
+	font-feature-settings: 'tnum';
+}
+
+.card {
+	background: var(--card);
+	border: 1px solid var(--line);
+	border-radius: 0.75rem;
+}
+
+/* 横に溢れる表は、ページ本体ではなく表の中だけをスクロールさせる */
+.scroll-x {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+a {
+	color: inherit;
+}

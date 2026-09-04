@@ -1,0 +1,207 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getTeam, LEAGUE_NAMES, TEAMS } from '../../engine/teams.ts';
+import { formatPct, gamesBehindLabel, percent, shortDate } from '../../lib/format.ts';
+import type { Snapshot } from '../../lib/snapshot.ts';
+import raw from '../../../data/2026/latest.json';
+
+export function getStaticPaths() {
+	return TEAMS.map((team) => ({ params: { slug: team.slug } }));
+}
+
+const latest = raw as unknown as Snapshot;
+const team = TEAMS.find((t) => t.slug === Astro.params.slug)!;
+const snapshot = latest.leagues[team.league];
+const me = snapshot.standings.find((row) => row.teamId === team.id)!;
+const rivals = snapshot.standings.filter((row) => row.teamId !== team.id);
+const headToHead = snapshot.remainingHeadToHead[team.id] ?? {};
+const peakClinch = Math.max(0.0001, ...me.clinchDates.map((d) => d.probability));
+
+const situation = !me.alive
+	? me.eliminationReason === 'collision'
+		? '優勝の可能性は消滅している。単独で追い抜けない相手がいるわけではないが、ライバル同士の潰し合いを考えると、どう転んでも1位にはなれない。'
+		: '優勝の可能性は消滅している。残り全勝しても上回れない球団がいる。'
+	: me.magicLit && me.magicConventional !== null
+		? `マジックが点灯している。他の全球団の自力優勝が消えており、あと${me.magicStrict ?? me.magicConventional}勝で優勝が確定する。`
+		: me.selfClinchPossible
+			? '自力優勝の可能性が残っている。残り全勝すれば、他球団の結果に関わらず優勝できる。'
+			: '自力優勝の可能性は消えている。優勝するには他球団の取りこぼしが必要。';
+---
+
+<Base
+	title={`${team.name} 優勝確率 2026`}
+	description={`${team.name}の優勝確率は${percent(me.championProbability)}、CS進出確率は${percent(me.playoffProbability)}。残り${me.remaining}試合。`}
+>
+	<div class="flex items-center gap-3">
+		<span
+			aria-hidden="true"
+			class="inline-block h-9 w-1.5 rounded-full"
+			style={`background: ${team.color}`}></span>
+		<div>
+			<h1 class="text-2xl font-bold tracking-tight">{team.name}</h1>
+			<p style="color: var(--ink-soft)" class="text-sm">
+				<a href={`/${team.league}/`} class="no-underline hover:underline"
+					>{LEAGUE_NAMES[team.league].short}</a
+				>
+				{me.rank}位
+			</p>
+		</div>
+	</div>
+
+	<div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+		{
+			[
+				{ label: '優勝確率', value: percent(me.championProbability), strong: true },
+				{ label: 'CS進出確率', value: percent(me.playoffProbability) },
+				{
+					label: 'マジック',
+					value:
+						me.magicLit && me.magicConventional !== null ? `M${me.magicConventional}` : '点灯前'
+				},
+				{ label: '予想勝数', value: `${me.finalWins.median}勝` }
+			].map((stat) => (
+				<div class="card p-4">
+					<div style="color: var(--ink-soft)" class="text-xs">
+						{stat.label}
+					</div>
+					<div class={`tnum mt-1 font-bold ${stat.strong ? 'text-3xl' : 'text-2xl'}`}>
+						{stat.value}
+					</div>
+				</div>
+			))
+		}
+	</div>
+
+	<p style="color: var(--ink-soft)" class="mt-5 max-w-2xl text-sm leading-relaxed">{situation}</p>
+
+	<div class="mt-8 grid gap-4 lg:grid-cols-2">
+		<div class="card p-4">
+			<h2 class="text-sm font-semibold">成績</h2>
+			<dl class="tnum mt-3 space-y-1.5 text-sm">
+				{
+					[
+						['試合', `${me.games}`],
+						['勝敗分', `${me.wins}勝${me.losses}敗${me.draws}分`],
+						['勝率', formatPct(me.pct)],
+						['ゲーム差', gamesBehindLabel(me.gamesBehind)],
+						['残り試合', `${me.remaining}`],
+						['得点 / 失点', `${me.runsScored} / ${me.runsAllowed}`],
+						['ピタゴラス勝率', formatPct(me.pythagoreanPct)],
+						['推定実力', formatPct(me.strength)],
+						['予想勝数（80%区間）', `${me.finalWins.p10} 〜 ${me.finalWins.p90}`]
+					].map(([label, value]) => (
+						<div class="flex justify-between gap-4">
+							<dt style="color: var(--ink-soft)">{label}</dt>
+							<dd>{value}</dd>
+						</div>
+					))
+				}
+			</dl>
+			<p style="color: var(--ink-faint)" class="mt-3 text-xs">
+				{
+					me.pythagoreanPct > me.pct
+						? '得失点差から見ると、実際の勝率より強いはずの成績。接戦で取りこぼしている。'
+						: '得失点差から見ると、実際の勝率ほどは強くない成績。接戦をよく拾えている。'
+				}
+			</p>
+		</div>
+
+		<div class="card p-4">
+			<h2 class="text-sm font-semibold">残り直接対決</h2>
+			<table class="tnum mt-3 w-full text-sm">
+				<tbody>
+					{
+						rivals.map((rival) => (
+							<tr style="border-color: var(--line)" class="border-b last:border-b-0">
+								<td class="py-2">
+									<a
+										href={`/team/${getTeam(rival.teamId).slug}/`}
+										class="flex items-center gap-2 no-underline hover:underline"
+									>
+										<span
+											aria-hidden="true"
+											class="inline-block h-3 w-1 rounded-full"
+											style={`background: ${getTeam(rival.teamId).color}`}
+										/>
+										{getTeam(rival.teamId).short}
+									</a>
+								</td>
+								<td style="color: var(--ink-soft)" class="py-2 text-right text-xs">
+									{rival.wins}-{rival.losses}-{rival.draws}
+								</td>
+								<td class="py-2 text-right font-semibold">{headToHead[rival.teamId] ?? 0}試合</td>
+							</tr>
+						))
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<div class="mt-8 grid gap-4 lg:grid-cols-2">
+		<div class="card p-4">
+			<h2 class="text-sm font-semibold">最終順位の確率</h2>
+			<div class="mt-3 space-y-1.5">
+				{
+					me.rankProbabilities.map((probability, index) => (
+						<div class="flex items-center gap-3 text-sm">
+							<span class="tnum w-8 shrink-0" style="color: var(--ink-soft)">
+								{index + 1}位
+							</span>
+							<div class="h-4 flex-1 overflow-hidden rounded" style="background: var(--line)">
+								<div
+									style={`width: ${Math.max(probability * 100, probability > 0 ? 0.6 : 0)}%; height: 100%; background: ${team.color}`}
+								/>
+							</div>
+							<span class="tnum w-14 shrink-0 text-right text-xs" style="color: var(--ink-soft)">
+								{percent(probability)}
+							</span>
+						</div>
+					))
+				}
+			</div>
+		</div>
+
+		<div class="card p-4">
+			<h2 class="text-sm font-semibold">この球団が優勝を決める日</h2>
+			{
+				me.clinchDates.length === 0 ? (
+					<p style="color: var(--ink-faint)" class="mt-3 text-sm">
+						シミュレーションで一度も優勝しなかったため、決定日の分布はありません。
+					</p>
+				) : (
+					<>
+						<p style="color: var(--ink-soft)" class="mt-1 mb-3 text-xs">
+							棒の高さは、全試行のうち「その日に{team.short}の優勝が確定した」割合。
+						</p>
+						<div class="space-y-1">
+							{me.clinchDates
+								.filter((point) => point.probability >= 0.002)
+								.map((point) => (
+									<div class="flex items-center gap-3 text-xs">
+										<span class="tnum w-16 shrink-0" style="color: var(--ink-soft)">
+											{shortDate(point.date)}
+										</span>
+										<div class="h-3 flex-1 overflow-hidden rounded" style="background: var(--line)">
+											<div
+												style={`width: ${(point.probability / peakClinch) * 100}%; height: 100%; background: ${team.color}`}
+											/>
+										</div>
+										<span class="tnum w-12 shrink-0 text-right" style="color: var(--ink-soft)">
+											{percent(point.probability)}
+										</span>
+									</div>
+								))}
+						</div>
+					</>
+				)
+			}
+		</div>
+	</div>
+
+	<p class="mt-8 text-sm">
+		<a href={`/${team.league}/`} style="color: var(--accent)" class="no-underline hover:underline">
+			← {LEAGUE_NAMES[team.league].short}の全体を見る
+		</a>
+	</p>
+</Base>

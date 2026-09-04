@@ -1,0 +1,237 @@
+---
+import Base from '../../layouts/Base.astro';
+import StandingsTable from '../../components/StandingsTable.astro';
+import ClinchHistogram from '../../components/ClinchHistogram.astro';
+import RankDistribution from '../../components/RankDistribution.astro';
+import { getTeam, LEAGUE_NAMES, teamsOf } from '../../engine/teams.ts';
+import { formatPct, percent, shortDate } from '../../lib/format.ts';
+import type { Snapshot } from '../../lib/snapshot.ts';
+import raw from '../../../data/2026/latest.json';
+
+export function getStaticPaths() {
+	return [{ params: { league: 'central' } }, { params: { league: 'pacific' } }];
+}
+
+const latest = raw as unknown as Snapshot;
+const leagueId = Astro.params.league as 'central' | 'pacific';
+const snapshot = latest.leagues[leagueId];
+const names = LEAGUE_NAMES[leagueId];
+const teams = teamsOf(leagueId);
+const leader = snapshot.standings[0]!;
+
+const tiebreakRules =
+	leagueId === 'central'
+		? ['勝率', '勝利数', '当該球団間の対戦勝率', 'リーグ内対戦成績（交流戦除く）の勝率', '前年順位']
+		: ['勝率', '当該球団間の対戦勝率', 'リーグ内対戦成績の勝率', '前年順位'];
+---
+
+<Base
+	title={`${names.short} 優勝確率・優勝決定日予測 2026`}
+	description={`${names.full}の優勝確率、マジックナンバー、優勝が決まる日の確率分布。${leader.teamId}の優勝確率は${percent(leader.championProbability)}。`}
+>
+	<h1 class="text-2xl font-bold tracking-tight">{names.full}</h1>
+	<p style="color: var(--ink-soft)" class="mt-2 text-sm">
+		残り{snapshot.remainingFixtures}試合 / {
+			snapshot.iterations.toLocaleString('ja-JP')
+		}回シミュレーション
+		{
+			snapshot.unscheduledFixtures > 0 && (
+				<>
+					{' '}
+					（うち{snapshot.unscheduledFixtures}
+					試合は中止で再編成日が未定のため、最終盤に仮置きしている）
+				</>
+			)
+		}
+	</p>
+
+	<section class="mt-6">
+		<StandingsTable standings={snapshot.standings} />
+	</section>
+
+	<section class="mt-8">
+		<ClinchHistogram snapshot={snapshot} />
+	</section>
+
+	<div class="mt-8 grid gap-4 lg:grid-cols-2">
+		<RankDistribution standings={snapshot.standings} />
+
+		<div class="card p-4">
+			<h3 class="text-sm font-semibold">マジックナンバー</h3>
+			<p style="color: var(--ink-soft)" class="mt-1 mb-4 text-xs">
+				慣用値は報道と同じ勝利数ベースの式。厳密値は引き分けと順位決定規定まで考慮して
+				「あと何勝で優勝が確定するか」を直接求めたもの。
+			</p>
+			<table class="tnum w-full text-sm">
+				<thead>
+					<tr style="color: var(--ink-soft); border-color: var(--line)" class="border-b text-xs">
+						<th class="py-2 text-left font-medium">球団</th>
+						<th class="py-2 text-right font-medium">慣用値</th>
+						<th class="py-2 text-right font-medium">厳密値</th>
+						<th class="py-2 text-right font-medium">対象</th>
+					</tr>
+				</thead>
+				<tbody>
+					{
+						snapshot.standings.map((team) => (
+							<tr style="border-color: var(--line)" class="border-b last:border-b-0">
+								<td class="py-2">{getTeam(team.teamId).short}</td>
+								<td class="py-2 text-right">
+									{team.magicConventional === null ? (
+										<span style="color: var(--ink-faint)">-</span>
+									) : (
+										`M${team.magicConventional}`
+									)}
+								</td>
+								<td class="py-2 text-right font-semibold">
+									{team.magicStrict === null ? (
+										<span style="color: var(--ink-faint)">-</span>
+									) : (
+										team.magicStrict
+									)}
+								</td>
+								<td style="color: var(--ink-soft)" class="py-2 text-right text-xs">
+									{team.magicTarget ? getTeam(team.magicTarget).short : '-'}
+								</td>
+							</tr>
+						))
+					}
+				</tbody>
+			</table>
+			<p style="color: var(--ink-faint)" class="mt-3 text-xs">
+				「-」は自力優勝の可能性が消えている球団。マジックは他の全球団の自力優勝が消えたときに点灯する。
+			</p>
+		</div>
+	</div>
+
+	<section class="mt-8 grid gap-4 lg:grid-cols-2">
+		<div class="card p-4">
+			<h3 class="text-sm font-semibold">残り直接対決</h3>
+			<p style="color: var(--ink-soft)" class="mt-1 mb-3 text-xs">
+				25試合 − 消化数 で算出。中止でまだ再編成日が決まっていない試合もここに含まれる。
+			</p>
+			<div class="scroll-x">
+				<table class="tnum w-full min-w-[22rem] text-sm">
+					<thead>
+						<tr style="color: var(--ink-soft); border-color: var(--line)" class="border-b text-xs">
+							<th class="py-2 text-left font-medium"></th>
+							{
+								teams.map((team) => (
+									<th class="px-1 py-2 text-right font-medium">{team.short.slice(0, 3)}</th>
+								))
+							}
+							<th class="px-1 py-2 text-right font-medium">計</th>
+						</tr>
+					</thead>
+					<tbody>
+						{
+							snapshot.standings.map((row) => {
+								const cells = snapshot.remainingHeadToHead[row.teamId] ?? {};
+								const total = Object.values(cells).reduce((a, b) => a + b, 0);
+								return (
+									<tr style="border-color: var(--line)" class="border-b last:border-b-0">
+										<td class="py-2 whitespace-nowrap">{getTeam(row.teamId).short}</td>
+										{teams.map((team) => (
+											<td
+												class="px-1 py-2 text-right"
+												style={team.id === row.teamId ? 'color: var(--line-strong)' : ''}
+											>
+												{team.id === row.teamId ? '—' : (cells[team.id] ?? 0)}
+											</td>
+										))}
+										<td class="px-1 py-2 text-right font-semibold">{total}</td>
+									</tr>
+								);
+							})
+						}
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div class="card p-4">
+			<h3 class="text-sm font-semibold">実力の推定値と予想最終成績</h3>
+			<p style="color: var(--ink-soft)" class="mt-1 mb-3 text-xs">
+				実勝率とピタゴラス勝率をブレンドし、平均へ縮小推定した値。シミュレーションはこの実力を使う。
+			</p>
+			<table class="tnum w-full text-sm">
+				<thead>
+					<tr style="color: var(--ink-soft); border-color: var(--line)" class="border-b text-xs">
+						<th class="py-2 text-left font-medium">球団</th>
+						<th class="py-2 text-right font-medium">実勝率</th>
+						<th class="py-2 text-right font-medium">ピタゴラス</th>
+						<th class="py-2 text-right font-medium">推定実力</th>
+						<th class="py-2 text-right font-medium">予想勝数</th>
+					</tr>
+				</thead>
+				<tbody>
+					{
+						snapshot.standings.map((team) => (
+							<tr style="border-color: var(--line)" class="border-b last:border-b-0">
+								<td class="py-2 whitespace-nowrap">{getTeam(team.teamId).short}</td>
+								<td class="py-2 text-right">{formatPct(team.pct)}</td>
+								<td
+									class="py-2 text-right"
+									style={
+										team.pythagoreanPct > team.pct ? 'color: var(--good)' : 'color: var(--bad)'
+									}
+								>
+									{formatPct(team.pythagoreanPct)}
+								</td>
+								<td class="py-2 text-right font-semibold">{formatPct(team.strength)}</td>
+								<td style="color: var(--ink-soft)" class="py-2 text-right text-xs">
+									{team.finalWins.p10}–
+									<strong style="color: var(--ink)">{team.finalWins.median}</strong>–
+									{team.finalWins.p90}
+								</td>
+							</tr>
+						))
+					}
+				</tbody>
+			</table>
+			<p style="color: var(--ink-faint)" class="mt-3 text-xs">
+				ピタゴラス勝率が実勝率より高い（緑）＝接戦で取りこぼしており、本来はもっと勝てるはずの球団。
+				予想勝数は10パーセンタイル–中央値–90パーセンタイル。
+			</p>
+		</div>
+	</section>
+
+	<section class="card mt-8 p-5">
+		<h2 class="text-base font-bold">{names.short}の順位決定方法</h2>
+		<p style="color: var(--ink-soft)" class="mt-2 text-sm">
+			勝率が並んだ場合、上から順に次の基準で決まる。
+			{
+				leagueId === 'central'
+					? 'セ・リーグは2番目が「勝利数」であるのが特徴で、パ・リーグとは順位が入れ替わりうる。'
+					: 'パ・リーグは勝率の次がいきなり「当該球団間の対戦勝率」で、勝利数は考慮されない。'
+			}
+		</p>
+		<ol style="color: var(--ink-soft)" class="mt-3 space-y-1 text-sm">
+			{
+				tiebreakRules.map((rule, index) => (
+					<li class="flex gap-2">
+						<span style="color: var(--ink-faint)" class="tnum">
+							{index + 1}.
+						</span>
+						<span style={index === 1 ? 'color: var(--ink); font-weight: 600' : ''}>{rule}</span>
+					</li>
+				))
+			}
+		</ol>
+		<p style="color: var(--ink-faint)" class="mt-3 text-xs">
+			NPB に同率首位のプレーオフはなく、必ずこの基準で単独の優勝球団が決まる。 勝率は「勝 ÷ (勝 +
+			負)」で、引き分けは分母から除かれる。
+		</p>
+	</section>
+
+	{
+		snapshot.clinchDateSummary && (
+			<p style="color: var(--ink-soft)" class="mt-8 text-sm">
+				{getTeam(leader.teamId).short}が優勝する確率は{percent(leader.championProbability)}。
+				優勝が決まる日は{shortDate(snapshot.clinchDateSummary.median)}が中央値で、
+				{shortDate(snapshot.clinchDateSummary.p10)}〜{shortDate(snapshot.clinchDateSummary.p90)}
+				に収まる確率が80%。
+			</p>
+		)
+	}
+</Base>

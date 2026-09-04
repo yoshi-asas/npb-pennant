@@ -1,0 +1,129 @@
+---
+import Base from '../layouts/Base.astro';
+import StandingsTable from '../components/StandingsTable.astro';
+import { getTeam, LEAGUE_NAMES } from '../engine/teams.ts';
+import { mediumDate, percent, shortDate } from '../lib/format.ts';
+import type { Snapshot } from '../lib/snapshot.ts';
+import raw from '../../data/2026/latest.json';
+
+const latest = raw as unknown as Snapshot;
+const leagues = (['central', 'pacific'] as const).map((id) => latest.leagues[id]);
+---
+
+<Base
+	title="プロ野球 優勝確率・優勝決定日予測 2026"
+	description="NPB セ・パ両リーグの優勝確率とマジックナンバー、そして『優勝がいつ決まるか』の確率分布を毎日計算しています。"
+>
+	<section class="mb-10">
+		<h1 class="text-2xl font-bold tracking-tight">優勝確率と、優勝が決まる日</h1>
+		<p style="color: var(--ink-soft)" class="mt-2 max-w-2xl text-sm leading-relaxed">
+			マジックナンバーは「最悪の場合あと何勝必要か」しか教えてくれません。このサイトは残りの全日程を
+			{latest.leagues.central.iterations.toLocaleString('ja-JP')}回シミュレーションして、
+			<strong style="color: var(--ink)">優勝確率</strong>と
+			<strong style="color: var(--ink)">優勝が決まる日</strong>を確率で出します。
+		</p>
+	</section>
+
+	<div class="mb-10 grid gap-4 sm:grid-cols-2">
+		{
+			leagues.map((league) => {
+				const leader = league.standings[0]!;
+				const team = getTeam(leader.teamId);
+				const summary = league.clinchDateSummary;
+				return (
+					<a
+						href={`/${league.league}/`}
+						class="card block p-5 no-underline transition-transform hover:-translate-y-0.5"
+					>
+						<div style="color: var(--ink-soft)" class="text-xs">
+							{LEAGUE_NAMES[league.league].short}
+						</div>
+						<div class="mt-2 flex items-baseline gap-2.5">
+							<span
+								aria-hidden="true"
+								class="inline-block h-6 w-1.5 rounded-full"
+								style={`background: ${team.color}`}
+							/>
+							<span class="text-xl font-bold">{team.short}</span>
+							<span class="tnum text-2xl font-bold">{percent(leader.championProbability)}</span>
+						</div>
+						<dl style="color: var(--ink-soft)" class="mt-4 space-y-1.5 text-sm">
+							<div class="flex justify-between gap-4">
+								<dt>現在</dt>
+								<dd class="tnum" style="color: var(--ink)">
+									{leader.wins}勝{leader.losses}敗{leader.draws}分 / 残り{leader.remaining}試合
+								</dd>
+							</div>
+							<div class="flex justify-between gap-4">
+								<dt>マジック</dt>
+								<dd class="tnum" style="color: var(--ink)">
+									{leader.magicLit && leader.magicConventional !== null
+										? `M${leader.magicConventional}`
+										: '点灯前'}
+								</dd>
+							</div>
+							{summary && (
+								<div class="flex justify-between gap-4">
+									<dt>決まりそうな日</dt>
+									<dd class="tnum" style="color: var(--ink)">
+										{shortDate(summary.median)}
+									</dd>
+								</div>
+							)}
+						</dl>
+					</a>
+				);
+			})
+		}
+	</div>
+
+	{
+		leagues.map((league) => (
+			<section class="mb-10">
+				<div class="mb-3 flex items-baseline justify-between gap-4">
+					<h2 class="text-lg font-bold">{LEAGUE_NAMES[league.league].short}</h2>
+					<a
+						href={`/${league.league}/`}
+						style="color: var(--accent)"
+						class="text-sm no-underline hover:underline"
+					>
+						詳しく見る →
+					</a>
+				</div>
+				<StandingsTable standings={league.standings} />
+			</section>
+		))
+	}
+
+	<section class="card p-5">
+		<h2 class="text-base font-bold">このサイトの数字の読み方</h2>
+		<dl style="color: var(--ink-soft)" class="mt-3 space-y-3 text-sm leading-relaxed">
+			<div>
+				<dt class="font-semibold" style="color: var(--ink)">優勝確率</dt>
+				<dd>
+					得失点から推定した各球団の実力をもとに、残り全試合を1試合ずつ確率的に決着させる試行を
+					{latest.leagues.central.iterations.toLocaleString('ja-JP')}回繰り返し、1位になった割合。
+				</dd>
+			</div>
+			<div>
+				<dt class="font-semibold" style="color: var(--ink)">優勝決定日</dt>
+				<dd>
+					各試行の中で、その日の試合を終えた時点で「他球団がどう転んでも優勝」が確定した日を記録し、
+					日ごとに集計したもの。
+				</dd>
+			</div>
+			<div>
+				<dt class="font-semibold" style="color: var(--ink)">マジックナンバー</dt>
+				<dd>
+					報道と同じ慣用式で計算した値。他の全球団の自力優勝が消えたときに点灯する。 NPB
+					の勝率は引き分けを分母から除くため、勝利数だけで計算する慣用式は
+					厳密な値とズレることがある。両方の値を
+					<a href="/method/" class="underline underline-offset-2">計算方法</a>のページに出している。
+				</dd>
+			</div>
+		</dl>
+		<p style="color: var(--ink-faint)" class="mt-4 text-xs">
+			{mediumDate(latest.asOfDate)}までの{latest.playedGames}試合を集計。
+		</p>
+	</section>
+</Base>

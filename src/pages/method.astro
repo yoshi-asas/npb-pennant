@@ -1,0 +1,305 @@
+---
+import Base from '../layouts/Base.astro';
+import { formatPct, percent } from '../lib/format.ts';
+import type { Snapshot } from '../lib/snapshot.ts';
+import raw from '../../data/2026/latest.json';
+
+const latest = raw as unknown as Snapshot;
+const options = latest.strengthOptions;
+---
+
+<Base
+	title="計算方法 | プロ野球 優勝確率"
+	description="優勝確率・優勝決定日・マジックナンバー・数学的敗退の計算方法と、モデルの前提および限界。"
+>
+	<h1 class="text-2xl font-bold tracking-tight">計算方法</h1>
+	<p style="color: var(--ink-soft)" class="mt-2 max-w-2xl text-sm leading-relaxed">
+		このページは、サイトに出ている数字がどう作られているかを全部書いたものです。
+		前提と限界も隠さず書きます。
+	</p>
+
+	<nav style="color: var(--accent)" class="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+		<a href="#pct" class="no-underline hover:underline">1. 勝率と順位</a>
+		<a href="#magic" class="no-underline hover:underline">2. マジックナンバー</a>
+		<a href="#elimination" class="no-underline hover:underline">3. 数学的敗退</a>
+		<a href="#strength" class="no-underline hover:underline">4. 実力の推定</a>
+		<a href="#simulation" class="no-underline hover:underline">5. シミュレーション</a>
+		<a href="#clinch" class="no-underline hover:underline">6. 優勝決定日</a>
+		<a href="#data" class="no-underline hover:underline">7. データ</a>
+		<a href="#limits" class="no-underline hover:underline">8. 限界</a>
+	</nav>
+
+	<article class="mt-10 space-y-10">
+		<section id="pct" class="scroll-mt-6">
+			<h2 class="text-lg font-bold">1. 勝率と順位</h2>
+			<div style="color: var(--ink-soft)" class="mt-3 space-y-3 text-sm leading-relaxed">
+				<p>
+					NPB の勝率は <strong style="color: var(--ink)">勝 ÷ (勝 + 負)</strong> で、 引き分けは分母から除かれます。80勝60敗3分なら
+					80 ÷ 140 = .571 です。 この「引き分けが分母から消える」性質が、以下の計算をすべて MLB 方式より厄介にしています。
+					引き分け数が違う2球団は、勝利数の多い側が勝率で下になることがあるからです。
+				</p>
+				<p>勝率が並んだ場合のタイブレークは、セ・リーグとパ・リーグで異なります。</p>
+			</div>
+
+			<div class="scroll-x card mt-4">
+				<table class="w-full min-w-[30rem] text-sm">
+					<thead>
+						<tr style="color: var(--ink-soft); border-color: var(--line)" class="border-b text-xs">
+							<th class="px-3 py-2 text-left font-medium">順</th>
+							<th class="px-3 py-2 text-left font-medium">セ・リーグ</th>
+							<th class="px-3 py-2 text-left font-medium">パ・リーグ</th>
+						</tr>
+					</thead>
+					<tbody>
+						{
+							[
+								['1', '勝率', '勝率'],
+								['2', '勝利数', '当該球団間の対戦勝率'],
+								['3', '当該球団間の対戦勝率', 'リーグ内対戦成績の勝率'],
+								['4', 'リーグ内対戦成績（交流戦除く）の勝率', '前年順位'],
+								['5', '前年順位', '—']
+							].map(([rank, central, pacific]) => (
+								<tr style="border-color: var(--line)" class="border-b last:border-b-0">
+									<td style="color: var(--ink-faint)" class="tnum px-3 py-2">
+										{rank}
+									</td>
+									<td
+										class="px-3 py-2"
+										style={rank === '2' ? 'color: var(--ink); font-weight: 600' : ''}
+									>
+										{central}
+									</td>
+									<td
+										class="px-3 py-2"
+										style={rank === '2' ? 'color: var(--ink); font-weight: 600' : ''}
+									>
+										{pacific}
+									</td>
+								</tr>
+							))
+						}
+					</tbody>
+				</table>
+			</div>
+
+			<p style="color: var(--ink-soft)" class="mt-3 text-sm leading-relaxed">
+				2番目の基準が違うため、<strong style="color: var(--ink)"
+					>まったく同じ成績でもリーグによって優勝球団が変わりえます</strong
+				>。 NPB
+				に同率首位のプレーオフはなく、必ずこの基準で単独の優勝球団が決まります。「当該球団間」は
+				並んでいる球団同士の総当たり成績を指すので、3球団以上が並ぶと集計範囲も変わります。
+				このサイトは順位決定規定をコード上の1か所だけに実装し、順位表・マジック・敗退判定・
+				シミュレーションのすべてがそこを経由するようにしています。
+			</p>
+		</section>
+
+		<section id="magic" class="scroll-mt-6">
+			<h2 class="text-lg font-bold">2. マジックナンバー</h2>
+			<div style="color: var(--ink-soft)" class="mt-3 space-y-3 text-sm leading-relaxed">
+				<p>2つの値を出しています。</p>
+				<p>
+					<strong style="color: var(--ink)">慣用値</strong>は報道と同じ式です。
+					<code class="rounded px-1.5 py-0.5 text-xs" style="background: var(--surface)">
+						M = ライバルの最大到達勝利数 − 自チームの勝利数 + 1
+					</code>
+					。勝利数だけで計算するので、引き分け数が違う相手が絡むと実態からズレます。
+				</p>
+				<p>
+					<strong style="color: var(--ink)">厳密値</strong>は 「残りのうち k
+					勝すれば、他のすべての試合結果に関わらず優勝が確定する」を満たす最小の k
+					を直接求めた値です。自チームの成績を最悪ケース（k勝して残りは全敗）に固定したうえで、
+					各ライバルが到達しうる最高成績と、順位決定規定に沿って比較します。
+					直接対決が残っていれば「自チームが勝つぶんライバルは勝てない」ことも織り込みます。
+				</p>
+				<p>
+					マジックが<strong style="color: var(--ink)">点灯</strong>するのは、自チーム以外の
+					全球団で自力優勝の可能性が消えたときです（NPB の慣例に合わせています）。
+					自力優勝が可能とは「残り全勝すれば他球団の結果に関わらず必ず優勝できる」状態を指します。
+				</p>
+			</div>
+		</section>
+
+		<section id="elimination" class="scroll-mt-6">
+			<h2 class="text-lg font-bold">3. 数学的敗退</h2>
+			<div style="color: var(--ink-soft)" class="mt-3 space-y-3 text-sm leading-relaxed">
+				<p>
+					「自力優勝が不可能」と「数学的に敗退」は別物です。自力優勝の判定は
+					ライバルが全員同時に勝ち続ける前提で見ますが、実際には
+					<strong style="color: var(--ink)">ライバル同士も潰し合う</strong>ので、
+					全員が勝ち続けることはできません。
+				</p>
+				<p>
+					これを正しく解くのが、1966年に Schwartz が定式化した baseball elimination problem
+					です。ライバル同士の残り試合を「誰の許容勝ち数も超えないように配れるか」という
+					<strong style="color: var(--ink)">最大流／最小カット</strong
+					>の問題に変換すると、厳密に判定できます。
+					流量が足りなければ、どう転んでも誰かが対象チームを追い越すので敗退が確定します。
+				</p>
+				<p>
+					そのため、順位表の「優勝の可能性なし」は
+					<strong style="color: var(--ink)"
+						>単独では誰にも追い抜かれないのに、潰し合いの結果として消える</strong
+					>ケースも正しく拾います。
+				</p>
+			</div>
+		</section>
+
+		<section id="strength" class="scroll-mt-6">
+			<h2 class="text-lg font-bold">4. 実力の推定</h2>
+			<div style="color: var(--ink-soft)" class="mt-3 space-y-3 text-sm leading-relaxed">
+				<p>
+					現在の勝率をそのまま使うと「たまたま接戦に勝っている」球団を過大評価します。
+					3段階で補正します。
+				</p>
+				<ol class="ml-5 list-decimal space-y-2">
+					<li>
+						<strong style="color: var(--ink)">ピタゴラス勝率</strong>を得失点から求める。
+						<code class="rounded px-1.5 py-0.5 text-xs" style="background: var(--surface)">
+							得点^{options.pythagoreanExponent} ÷ (得点^{options.pythagoreanExponent} + 失点^
+							{options.pythagoreanExponent})
+						</code>
+						。指数は MLB で慣用される 1.83 ではなく、NPB の得点環境により合う {
+							options.pythagoreanExponent
+						} を使っています。
+					</li>
+					<li>
+						実勝率と {percent(options.pythagoreanWeight, 0)} ずつ<strong style="color: var(--ink)"
+							>ブレンド</strong
+						>する。
+					</li>
+					<li>
+						<strong style="color: var(--ink)">平均への回帰</strong>をかける。 「.500 の相手と{
+							options.shrinkageGames
+						}試合戦った」ぶんの重みを足して薄める。
+						チーム勝率の真の実力は、およそ70試合ぶんの回帰をかけるとよく当たることが知られています。
+					</li>
+				</ol>
+				<p>
+					1試合ごとの勝敗確率は <strong style="color: var(--ink)">log5</strong>（Bill James）
+					で2球団の実力から求め、ホームアドバンテージをロジット空間でのシフトとして加えます。
+				</p>
+				<div class="card mt-4 p-4">
+					<h3 style="color: var(--ink)" class="text-sm font-semibold">
+						今シーズンの実測から推定したリーグ傾向
+					</h3>
+					<dl class="tnum mt-3 space-y-1.5 text-sm">
+						<div class="flex justify-between gap-4">
+							<dt>ホーム勝率</dt>
+							<dd style="color: var(--ink)">{formatPct(latest.context.homeWinRate)}</dd>
+						</div>
+						<div class="flex justify-between gap-4">
+							<dt>引き分け率</dt>
+							<dd style="color: var(--ink)">{percent(latest.context.drawRate)}</dd>
+						</div>
+						<div class="flex justify-between gap-4">
+							<dt>集計試合数</dt>
+							<dd style="color: var(--ink)">{latest.context.sampleSize}試合</dd>
+						</div>
+					</dl>
+					<p class="mt-3 text-xs">
+						リーグ別に分けると1リーグ約300試合しかなく標準誤差が3%近くになるため、
+						12球団をまとめて集計したうえで長期的な水準（ホーム勝率 54%）へ縮小推定しています。
+						ホームアドバンテージも延長規定もセ・パで違わないので、分ける理由がありません。
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="simulation" class="scroll-mt-6">
+			<h2 class="text-lg font-bold">5. シミュレーション</h2>
+			<div style="color: var(--ink-soft)" class="mt-3 space-y-3 text-sm leading-relaxed">
+				<p>
+					残りの全試合を1試合ずつ確率的に決着させ、シーズン終了まで進める試行を
+					{latest.leagues.central.iterations.toLocaleString('ja-JP')}回繰り返します。
+					最終成績には順位決定規定をそのまま適用して1位を決め、1位になった割合が優勝確率です。
+				</p>
+				<p>
+					残り試合は<strong style="color: var(--ink)">日程表から数えるのではなく</strong>、 「25試合
+					− その相手との消化数」で導出しています。日程表の未消化カードを数える方法だと、
+					雨天中止でまだ再編成日が決まっていない試合を取りこぼすからです。
+					日程表に足りないぶんはシーズン最終盤に仮置きしています。
+				</p>
+				<p>乱数は固定シードなので、同じデータからは常に同じ結果が出ます。</p>
+			</div>
+		</section>
+
+		<section id="clinch" class="scroll-mt-6">
+			<h2 class="text-lg font-bold">6. 優勝決定日</h2>
+			<div style="color: var(--ink-soft)" class="mt-3 space-y-3 text-sm leading-relaxed">
+				<p>
+					各試行の中で、その日の試合を終えるたびに「首位球団の優勝が数学的に確定したか」を判定し、
+					確定した日を記録します。これを全試行で集計したものが決定日の分布です。
+				</p>
+				<p>
+					勝率が完全に並んで当該球団間の対戦成績で決着するケースは、数学的な確定としては
+					最後まで立ちません。この場合は実際に決着する最終日に計上し、その割合を別途表示しています。
+				</p>
+			</div>
+		</section>
+
+		<section id="data" class="scroll-mt-6">
+			<h2 class="text-lg font-bold">7. データ</h2>
+			<div style="color: var(--ink-soft)" class="mt-3 space-y-3 text-sm leading-relaxed">
+				<p>
+					試合結果は
+					<a
+						href="https://npb.jp/games/2026/"
+						rel="noopener noreferrer"
+						target="_blank"
+						class="underline underline-offset-2">NPB オフィシャルサイトの試合日程</a
+					>
+					から1日1回取得しています。順位表・得失点・直接対決成績はすべてこの試合ログから復元しており、
+					<a
+						href="https://npb.jp/bis/2026/stats/"
+						rel="noopener noreferrer"
+						target="_blank"
+						class="underline underline-offset-2">NPB 公式の順位表</a
+					>
+					と 試合数・勝敗分・対戦相手ごとの成績・交流戦成績まで完全に一致することを自動で検証しています。
+					一致しない場合はデータを更新せず、前日の結果を出し続けます。
+				</p>
+				<p>
+					計算結果は日ごとに保存し、過去日のファイルは書き換えません。
+					あとから「その日にどう予測していたか」を検証できるようにするためです。
+				</p>
+			</div>
+		</section>
+
+		<section id="limits" class="scroll-mt-6">
+			<h2 class="text-lg font-bold">8. 前提と限界</h2>
+			<ul style="color: var(--ink-soft)" class="mt-3 space-y-3 text-sm leading-relaxed">
+				<li class="flex gap-2">
+					<span style="color: var(--ink-faint)">・</span>
+					<span>
+						<strong style="color: var(--ink)">敗退判定は引き分けが起きない前提</strong
+						>で計算しています。
+						引き分けは勝率の分母から外れるため、ライバルにとっては敗けより有利に働きます。
+						つまり引き分けを許すと、優勝確定はここでの判定よりわずかに遅くなる可能性があります。
+						この前提は報道のマジックナンバーと同じです（シミュレーション側では引き分けを確率的に発生させています）。
+					</span>
+				</li>
+				<li class="flex gap-2">
+					<span style="color: var(--ink-faint)">・</span>
+					<span>
+						実力の推定は<strong style="color: var(--ink)">チーム単位</strong>です。
+						先発投手の並び、故障、移籍、消化試合の偏り、優勝が決まった後の主力温存などは考慮していません。
+					</span>
+				</li>
+				<li class="flex gap-2">
+					<span style="color: var(--ink-faint)">・</span>
+					<span>
+						中止でまだ再編成日が決まっていない試合は、日付をシーズン最終盤に仮置きしています。
+						決定日の予測はそのぶん後ろにずれる可能性があります。
+					</span>
+				</li>
+				<li class="flex gap-2">
+					<span style="color: var(--ink-faint)">・</span>
+					<span>
+						優勝確率はモデルの出力であって予言ではありません。
+						モデルが前提を外していれば数字も外れます。
+					</span>
+				</li>
+			</ul>
+		</section>
+	</article>
+</Base>

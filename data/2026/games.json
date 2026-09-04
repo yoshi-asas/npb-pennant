@@ -1,0 +1,8942 @@
+[
+	{
+		"date": "2026-03-27",
+		"home": "b",
+		"away": "e",
+		"homeScore": 0,
+		"awayScore": 10,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-27",
+		"home": "c",
+		"away": "d",
+		"homeScore": 6,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-27",
+		"home": "db",
+		"away": "s",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-27",
+		"home": "g",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-27",
+		"home": "h",
+		"away": "f",
+		"homeScore": 6,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-27",
+		"home": "m",
+		"away": "l",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-28",
+		"home": "b",
+		"away": "e",
+		"homeScore": 6,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-28",
+		"home": "c",
+		"away": "d",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-28",
+		"home": "db",
+		"away": "s",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-28",
+		"home": "g",
+		"away": "t",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-28",
+		"home": "h",
+		"away": "f",
+		"homeScore": 6,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-28",
+		"home": "m",
+		"away": "l",
+		"homeScore": 11,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-29",
+		"home": "b",
+		"away": "e",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-29",
+		"home": "c",
+		"away": "d",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-29",
+		"home": "db",
+		"away": "s",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-29",
+		"home": "g",
+		"away": "t",
+		"homeScore": 6,
+		"awayScore": 12,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-29",
+		"home": "h",
+		"away": "f",
+		"homeScore": 8,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-29",
+		"home": "m",
+		"away": "l",
+		"homeScore": 0,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-31",
+		"home": "d",
+		"away": "g",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-31",
+		"home": "e",
+		"away": "h",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-31",
+		"home": "f",
+		"away": "m",
+		"homeScore": 9,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-31",
+		"home": "l",
+		"away": "b",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-31",
+		"home": "s",
+		"away": "c",
+		"homeScore": 8,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-03-31",
+		"home": "t",
+		"away": "db",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-01",
+		"home": "d",
+		"away": "g",
+		"homeScore": 5,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-01",
+		"home": "e",
+		"away": "h",
+		"homeScore": 1,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-01",
+		"home": "f",
+		"away": "m",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-01",
+		"home": "l",
+		"away": "b",
+		"homeScore": 0,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-01",
+		"home": "s",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-04-01",
+		"home": "t",
+		"away": "db",
+		"homeScore": 1,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-02",
+		"home": "d",
+		"away": "g",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-02",
+		"home": "e",
+		"away": "h",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-02",
+		"home": "f",
+		"away": "m",
+		"homeScore": 7,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-02",
+		"home": "l",
+		"away": "b",
+		"homeScore": 3,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-02",
+		"home": "s",
+		"away": "c",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-02",
+		"home": "t",
+		"away": "db",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-03",
+		"home": "c",
+		"away": "t",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-03",
+		"home": "f",
+		"away": "b",
+		"homeScore": 12,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-03",
+		"home": "g",
+		"away": "db",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-03",
+		"home": "l",
+		"away": "e",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-03",
+		"home": "m",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-03",
+		"home": "s",
+		"away": "d",
+		"homeScore": 0,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-04",
+		"home": "c",
+		"away": "t",
+		"homeScore": 5,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-04",
+		"home": "f",
+		"away": "b",
+		"homeScore": 6,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-04",
+		"home": "g",
+		"away": "db",
+		"homeScore": 8,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-04",
+		"home": "l",
+		"away": "e",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-04",
+		"home": "m",
+		"away": "h",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-04",
+		"home": "s",
+		"away": "d",
+		"homeScore": 11,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-05",
+		"home": "c",
+		"away": "t",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-05",
+		"home": "f",
+		"away": "b",
+		"homeScore": 8,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-05",
+		"home": "g",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-05",
+		"home": "l",
+		"away": "e",
+		"homeScore": 1,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-05",
+		"home": "m",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-05",
+		"home": "s",
+		"away": "d",
+		"homeScore": 7,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-07",
+		"home": "b",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-07",
+		"home": "c",
+		"away": "g",
+		"homeScore": 5,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-07",
+		"home": "db",
+		"away": "d",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-07",
+		"home": "e",
+		"away": "f",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-07",
+		"home": "h",
+		"away": "l",
+		"homeScore": 6,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-07",
+		"home": "t",
+		"away": "s",
+		"homeScore": 9,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-08",
+		"home": "b",
+		"away": "m",
+		"homeScore": 9,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-08",
+		"home": "c",
+		"away": "g",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-08",
+		"home": "db",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-08",
+		"home": "e",
+		"away": "f",
+		"homeScore": 0,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-08",
+		"home": "h",
+		"away": "l",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-08",
+		"home": "t",
+		"away": "s",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-09",
+		"home": "b",
+		"away": "m",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-09",
+		"home": "c",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "マツダスタジアム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-04-09",
+		"home": "e",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-09",
+		"home": "h",
+		"away": "l",
+		"homeScore": 2,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-09",
+		"home": "t",
+		"away": "s",
+		"homeScore": 2,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-10",
+		"home": "d",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-10",
+		"home": "db",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-04-10",
+		"home": "e",
+		"away": "b",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "楽天モバイル",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-04-10",
+		"home": "g",
+		"away": "s",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-10",
+		"home": "l",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "県営大宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-11",
+		"home": "d",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 9,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-11",
+		"home": "db",
+		"away": "c",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-11",
+		"home": "e",
+		"away": "b",
+		"homeScore": 11,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-11",
+		"home": "f",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-11",
+		"home": "g",
+		"away": "s",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-11",
+		"home": "l",
+		"away": "m",
+		"homeScore": 5,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-12",
+		"home": "d",
+		"away": "t",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-12",
+		"home": "db",
+		"away": "c",
+		"homeScore": 6,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-12",
+		"home": "e",
+		"away": "b",
+		"homeScore": 4,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-12",
+		"home": "f",
+		"away": "h",
+		"homeScore": 7,
+		"awayScore": 11,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-12",
+		"home": "g",
+		"away": "s",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-12",
+		"home": "l",
+		"away": "m",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-14",
+		"home": "b",
+		"away": "l",
+		"homeScore": 5,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-14",
+		"home": "d",
+		"away": "c",
+		"homeScore": 6,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "豊橋",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-14",
+		"home": "h",
+		"away": "e",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-14",
+		"home": "m",
+		"away": "f",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-14",
+		"home": "s",
+		"away": "db",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "松山",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-14",
+		"home": "t",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-15",
+		"home": "b",
+		"away": "l",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-15",
+		"home": "d",
+		"away": "c",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-15",
+		"home": "h",
+		"away": "e",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-15",
+		"home": "m",
+		"away": "f",
+		"homeScore": 9,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-15",
+		"home": "t",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-04-16",
+		"home": "b",
+		"away": "l",
+		"homeScore": 7,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-16",
+		"home": "h",
+		"away": "e",
+		"homeScore": 6,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "北九州",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-16",
+		"home": "m",
+		"away": "f",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-16",
+		"home": "s",
+		"away": "db",
+		"homeScore": 2,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-16",
+		"home": "t",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-17",
+		"home": "c",
+		"away": "db",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-17",
+		"home": "e",
+		"away": "m",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-17",
+		"home": "f",
+		"away": "l",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-17",
+		"home": "h",
+		"away": "b",
+		"homeScore": 4,
+		"awayScore": 13,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-17",
+		"home": "s",
+		"away": "g",
+		"homeScore": 2,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-17",
+		"home": "t",
+		"away": "d",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-18",
+		"home": "c",
+		"away": "db",
+		"homeScore": 2,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-18",
+		"home": "e",
+		"away": "m",
+		"homeScore": 9,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-18",
+		"home": "f",
+		"away": "l",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-18",
+		"home": "h",
+		"away": "b",
+		"homeScore": 7,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-18",
+		"home": "s",
+		"away": "g",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-18",
+		"home": "t",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-19",
+		"home": "c",
+		"away": "db",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-19",
+		"home": "e",
+		"away": "m",
+		"homeScore": 5,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-19",
+		"home": "f",
+		"away": "l",
+		"homeScore": 3,
+		"awayScore": 15,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-19",
+		"home": "h",
+		"away": "b",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-19",
+		"home": "s",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-19",
+		"home": "t",
+		"away": "d",
+		"homeScore": 7,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-21",
+		"home": "c",
+		"away": "s",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-21",
+		"home": "db",
+		"away": "t",
+		"homeScore": 16,
+		"awayScore": 9,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-21",
+		"home": "f",
+		"away": "e",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-21",
+		"home": "g",
+		"away": "d",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "長野",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-21",
+		"home": "l",
+		"away": "h",
+		"homeScore": 6,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-21",
+		"home": "m",
+		"away": "b",
+		"homeScore": 7,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-22",
+		"home": "c",
+		"away": "s",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-22",
+		"home": "db",
+		"away": "t",
+		"homeScore": 7,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-22",
+		"home": "f",
+		"away": "e",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-22",
+		"home": "g",
+		"away": "d",
+		"homeScore": 5,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "前橋",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-22",
+		"home": "l",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-22",
+		"home": "m",
+		"away": "b",
+		"homeScore": 1,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-23",
+		"home": "c",
+		"away": "s",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-23",
+		"home": "db",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "横浜",
+		"startTime": "17:45"
+	},
+	{
+		"date": "2026-04-23",
+		"home": "f",
+		"away": "e",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-23",
+		"home": "l",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-23",
+		"home": "m",
+		"away": "b",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-04-24",
+		"home": "b",
+		"away": "f",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-24",
+		"home": "d",
+		"away": "s",
+		"homeScore": 6,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-24",
+		"home": "db",
+		"away": "g",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-25",
+		"home": "b",
+		"away": "f",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-25",
+		"home": "d",
+		"away": "s",
+		"homeScore": 5,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-25",
+		"home": "db",
+		"away": "g",
+		"homeScore": 2,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-25",
+		"home": "e",
+		"away": "l",
+		"homeScore": 7,
+		"awayScore": 9,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-25",
+		"home": "h",
+		"away": "m",
+		"homeScore": 0,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "熊本",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-25",
+		"home": "t",
+		"away": "c",
+		"homeScore": 2,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-26",
+		"home": "b",
+		"away": "f",
+		"homeScore": 9,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-26",
+		"home": "d",
+		"away": "s",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-26",
+		"home": "db",
+		"away": "g",
+		"homeScore": 1,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-26",
+		"home": "e",
+		"away": "l",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-26",
+		"home": "h",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "鹿児島",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-04-26",
+		"home": "t",
+		"away": "c",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-28",
+		"home": "b",
+		"away": "h",
+		"homeScore": 1,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-28",
+		"home": "d",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-28",
+		"home": "g",
+		"away": "c",
+		"homeScore": 1,
+		"awayScore": 11,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-28",
+		"home": "l",
+		"away": "f",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-28",
+		"home": "m",
+		"away": "e",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-28",
+		"home": "s",
+		"away": "t",
+		"homeScore": 10,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-29",
+		"home": "b",
+		"away": "h",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-29",
+		"home": "d",
+		"away": "db",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-29",
+		"home": "g",
+		"away": "c",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-29",
+		"home": "l",
+		"away": "f",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-29",
+		"home": "m",
+		"away": "e",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-29",
+		"home": "s",
+		"away": "t",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-30",
+		"home": "d",
+		"away": "db",
+		"homeScore": 2,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-30",
+		"home": "g",
+		"away": "c",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-30",
+		"home": "l",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-04-30",
+		"home": "s",
+		"away": "t",
+		"homeScore": 2,
+		"awayScore": 10,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-01",
+		"home": "c",
+		"away": "d",
+		"homeScore": 7,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-01",
+		"home": "f",
+		"away": "b",
+		"homeScore": 5,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-01",
+		"home": "h",
+		"away": "e",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-01",
+		"home": "m",
+		"away": "l",
+		"homeScore": 0,
+		"awayScore": 10,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-01",
+		"home": "s",
+		"away": "db",
+		"homeScore": 16,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-01",
+		"home": "t",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-02",
+		"home": "c",
+		"away": "d",
+		"homeScore": 0,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-02",
+		"home": "f",
+		"away": "b",
+		"homeScore": 9,
+		"awayScore": 10,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-02",
+		"home": "h",
+		"away": "e",
+		"homeScore": 5,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-02",
+		"home": "m",
+		"away": "l",
+		"homeScore": 4,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-02",
+		"home": "s",
+		"away": "db",
+		"homeScore": 6,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-02",
+		"home": "t",
+		"away": "g",
+		"homeScore": 7,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-03",
+		"home": "c",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "マツダスタジアム",
+		"startTime": "13:30"
+	},
+	{
+		"date": "2026-05-03",
+		"home": "f",
+		"away": "b",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-03",
+		"home": "h",
+		"away": "e",
+		"homeScore": 0,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-03",
+		"home": "m",
+		"away": "l",
+		"homeScore": 10,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-03",
+		"home": "s",
+		"away": "db",
+		"homeScore": 2,
+		"awayScore": 12,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-03",
+		"home": "t",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-04",
+		"home": "b",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-04",
+		"home": "d",
+		"away": "t",
+		"homeScore": 7,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-04",
+		"home": "db",
+		"away": "c",
+		"homeScore": 11,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-04",
+		"home": "e",
+		"away": "f",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-04",
+		"home": "g",
+		"away": "s",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-04",
+		"home": "l",
+		"away": "h",
+		"homeScore": 10,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-05",
+		"home": "b",
+		"away": "m",
+		"homeScore": 6,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-05",
+		"home": "d",
+		"away": "t",
+		"homeScore": 7,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-05",
+		"home": "db",
+		"away": "c",
+		"homeScore": 5,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-05",
+		"home": "e",
+		"away": "f",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-05",
+		"home": "g",
+		"away": "s",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-05",
+		"home": "l",
+		"away": "h",
+		"homeScore": 4,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-06",
+		"home": "b",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-06",
+		"home": "d",
+		"away": "t",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-06",
+		"home": "db",
+		"away": "c",
+		"homeScore": 0,
+		"awayScore": 10,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-06",
+		"home": "e",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 12,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-06",
+		"home": "g",
+		"away": "s",
+		"homeScore": 0,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-06",
+		"home": "l",
+		"away": "h",
+		"homeScore": 10,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-08",
+		"home": "b",
+		"away": "f",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-08",
+		"home": "c",
+		"away": "s",
+		"homeScore": 1,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-08",
+		"home": "d",
+		"away": "g",
+		"homeScore": 9,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-08",
+		"home": "h",
+		"away": "m",
+		"homeScore": 6,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-08",
+		"home": "l",
+		"away": "e",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-08",
+		"home": "t",
+		"away": "db",
+		"homeScore": 1,
+		"awayScore": 10,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-09",
+		"home": "b",
+		"away": "f",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-09",
+		"home": "c",
+		"away": "s",
+		"homeScore": 0,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-09",
+		"home": "d",
+		"away": "g",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-09",
+		"home": "h",
+		"away": "m",
+		"homeScore": 4,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-09",
+		"home": "l",
+		"away": "e",
+		"homeScore": 6,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-09",
+		"home": "t",
+		"away": "db",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-10",
+		"home": "b",
+		"away": "f",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-10",
+		"home": "c",
+		"away": "s",
+		"homeScore": 4,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-10",
+		"home": "d",
+		"away": "g",
+		"homeScore": 4,
+		"awayScore": 9,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-10",
+		"home": "h",
+		"away": "m",
+		"homeScore": 8,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-10",
+		"home": "l",
+		"away": "e",
+		"homeScore": 6,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-10",
+		"home": "t",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-12",
+		"home": "db",
+		"away": "d",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-12",
+		"home": "e",
+		"away": "b",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "弘前",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-12",
+		"home": "g",
+		"away": "c",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "岐阜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-12",
+		"home": "h",
+		"away": "l",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-12",
+		"home": "m",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-12",
+		"home": "s",
+		"away": "t",
+		"homeScore": 0,
+		"awayScore": 10,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-13",
+		"home": "db",
+		"away": "d",
+		"homeScore": 5,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-13",
+		"home": "g",
+		"away": "c",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "福井",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-13",
+		"home": "h",
+		"away": "l",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-13",
+		"home": "m",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-13",
+		"home": "s",
+		"away": "t",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-14",
+		"home": "db",
+		"away": "d",
+		"homeScore": 0,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-14",
+		"home": "e",
+		"away": "b",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-14",
+		"home": "m",
+		"away": "f",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-15",
+		"home": "d",
+		"away": "s",
+		"homeScore": 5,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-15",
+		"home": "e",
+		"away": "h",
+		"homeScore": 6,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-15",
+		"home": "f",
+		"away": "l",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-15",
+		"home": "g",
+		"away": "db",
+		"homeScore": 2,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-15",
+		"home": "m",
+		"away": "b",
+		"homeScore": 6,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-15",
+		"home": "t",
+		"away": "c",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-16",
+		"home": "d",
+		"away": "s",
+		"homeScore": 8,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-16",
+		"home": "e",
+		"away": "h",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-16",
+		"home": "f",
+		"away": "l",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-16",
+		"home": "g",
+		"away": "db",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-16",
+		"home": "m",
+		"away": "b",
+		"homeScore": 2,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-16",
+		"home": "t",
+		"away": "c",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-17",
+		"home": "d",
+		"away": "s",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-17",
+		"home": "e",
+		"away": "h",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-17",
+		"home": "f",
+		"away": "l",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-17",
+		"home": "g",
+		"away": "db",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-17",
+		"home": "m",
+		"away": "b",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-17",
+		"home": "t",
+		"away": "c",
+		"homeScore": 0,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-19",
+		"home": "b",
+		"away": "h",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-19",
+		"home": "c",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-19",
+		"home": "f",
+		"away": "e",
+		"homeScore": 6,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-19",
+		"home": "l",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "前橋",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-19",
+		"home": "s",
+		"away": "g",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "いわき",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-19",
+		"home": "t",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "倉敷",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-20",
+		"home": "b",
+		"away": "h",
+		"homeScore": 8,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-20",
+		"home": "c",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-20",
+		"home": "f",
+		"away": "e",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-20",
+		"home": "l",
+		"away": "m",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "県営大宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-20",
+		"home": "t",
+		"away": "d",
+		"homeScore": 8,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-21",
+		"home": "c",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-21",
+		"home": "s",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-21",
+		"home": "t",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-05-22",
+		"home": "d",
+		"away": "c",
+		"homeScore": 6,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-22",
+		"home": "e",
+		"away": "m",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-22",
+		"home": "g",
+		"away": "t",
+		"homeScore": 4,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-22",
+		"home": "h",
+		"away": "f",
+		"homeScore": 10,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-22",
+		"home": "l",
+		"away": "b",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-23",
+		"home": "d",
+		"away": "c",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-23",
+		"home": "db",
+		"away": "s",
+		"homeScore": 0,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-23",
+		"home": "e",
+		"away": "m",
+		"homeScore": 6,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-23",
+		"home": "g",
+		"away": "t",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-23",
+		"home": "h",
+		"away": "f",
+		"homeScore": 11,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-23",
+		"home": "l",
+		"away": "b",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-24",
+		"home": "d",
+		"away": "c",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-24",
+		"home": "db",
+		"away": "s",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-24",
+		"home": "e",
+		"away": "m",
+		"homeScore": 8,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-24",
+		"home": "g",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-24",
+		"home": "h",
+		"away": "f",
+		"homeScore": 7,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-24",
+		"home": "l",
+		"away": "b",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-26",
+		"home": "c",
+		"away": "m",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-26",
+		"home": "d",
+		"away": "e",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-26",
+		"home": "db",
+		"away": "b",
+		"homeScore": 1,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-26",
+		"home": "g",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-26",
+		"home": "s",
+		"away": "l",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-26",
+		"home": "t",
+		"away": "f",
+		"homeScore": 0,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-27",
+		"home": "c",
+		"away": "m",
+		"homeScore": 4,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-27",
+		"home": "d",
+		"away": "e",
+		"homeScore": 7,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-27",
+		"home": "db",
+		"away": "b",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-27",
+		"home": "g",
+		"away": "h",
+		"homeScore": 5,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-27",
+		"home": "s",
+		"away": "l",
+		"homeScore": 2,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-27",
+		"home": "t",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-28",
+		"home": "c",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-28",
+		"home": "d",
+		"away": "e",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-28",
+		"home": "db",
+		"away": "b",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-28",
+		"home": "g",
+		"away": "h",
+		"homeScore": 4,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-28",
+		"home": "s",
+		"away": "l",
+		"homeScore": 0,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-28",
+		"home": "t",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-29",
+		"home": "b",
+		"away": "d",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-29",
+		"home": "e",
+		"away": "s",
+		"homeScore": 2,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-29",
+		"home": "f",
+		"away": "g",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-29",
+		"home": "h",
+		"away": "c",
+		"homeScore": 2,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-29",
+		"home": "l",
+		"away": "db",
+		"homeScore": 13,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-29",
+		"home": "m",
+		"away": "t",
+		"homeScore": 0,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-30",
+		"home": "b",
+		"away": "d",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-30",
+		"home": "e",
+		"away": "s",
+		"homeScore": 7,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-30",
+		"home": "f",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-30",
+		"home": "h",
+		"away": "c",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-30",
+		"home": "l",
+		"away": "db",
+		"homeScore": 6,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-30",
+		"home": "m",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-31",
+		"home": "b",
+		"away": "d",
+		"homeScore": 7,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-31",
+		"home": "e",
+		"away": "s",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-31",
+		"home": "f",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-31",
+		"home": "h",
+		"away": "c",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-31",
+		"home": "l",
+		"away": "db",
+		"homeScore": 0,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-05-31",
+		"home": "m",
+		"away": "t",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-02",
+		"home": "c",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "マツダスタジアム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-02",
+		"home": "d",
+		"away": "h",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-02",
+		"home": "db",
+		"away": "e",
+		"homeScore": 3,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-02",
+		"home": "g",
+		"away": "b",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-02",
+		"home": "s",
+		"away": "m",
+		"homeScore": 0,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-02",
+		"home": "t",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-03",
+		"home": "c",
+		"away": "f",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-03",
+		"home": "d",
+		"away": "h",
+		"homeScore": 5,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-03",
+		"home": "db",
+		"away": "e",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-03",
+		"home": "g",
+		"away": "b",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-03",
+		"home": "s",
+		"away": "m",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-03",
+		"home": "t",
+		"away": "l",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-04",
+		"home": "c",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-04",
+		"home": "d",
+		"away": "h",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-04",
+		"home": "db",
+		"away": "e",
+		"homeScore": 8,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-04",
+		"home": "g",
+		"away": "b",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-04",
+		"home": "s",
+		"away": "m",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-04",
+		"home": "t",
+		"away": "l",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-05",
+		"home": "c",
+		"away": "b",
+		"homeScore": 2,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-05",
+		"home": "d",
+		"away": "l",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-05",
+		"home": "db",
+		"away": "h",
+		"homeScore": 8,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-05",
+		"home": "g",
+		"away": "m",
+		"homeScore": 8,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-05",
+		"home": "s",
+		"away": "f",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-05",
+		"home": "t",
+		"away": "e",
+		"homeScore": 8,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-06",
+		"home": "c",
+		"away": "b",
+		"homeScore": 7,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-06",
+		"home": "d",
+		"away": "l",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-06",
+		"home": "db",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-06",
+		"home": "g",
+		"away": "m",
+		"homeScore": 1,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-06",
+		"home": "s",
+		"away": "f",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-06",
+		"home": "t",
+		"away": "e",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-07",
+		"home": "c",
+		"away": "b",
+		"homeScore": 5,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-07",
+		"home": "d",
+		"away": "l",
+		"homeScore": 1,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-07",
+		"home": "db",
+		"away": "h",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-07",
+		"home": "g",
+		"away": "m",
+		"homeScore": 2,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-07",
+		"home": "s",
+		"away": "f",
+		"homeScore": 1,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-07",
+		"home": "t",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "甲子園",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-06-08",
+		"home": "t",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-09",
+		"home": "b",
+		"away": "s",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-09",
+		"home": "e",
+		"away": "g",
+		"homeScore": 2,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-09",
+		"home": "f",
+		"away": "db",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-09",
+		"home": "h",
+		"away": "t",
+		"homeScore": 10,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-09",
+		"home": "l",
+		"away": "c",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-09",
+		"home": "m",
+		"away": "d",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-10",
+		"home": "b",
+		"away": "s",
+		"homeScore": 8,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-10",
+		"home": "e",
+		"away": "g",
+		"homeScore": 0,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-10",
+		"home": "f",
+		"away": "db",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-10",
+		"home": "h",
+		"away": "t",
+		"homeScore": 6,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-10",
+		"home": "l",
+		"away": "c",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-10",
+		"home": "m",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 11,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-11",
+		"home": "b",
+		"away": "s",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-11",
+		"home": "e",
+		"away": "g",
+		"homeScore": 8,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-11",
+		"home": "f",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-11",
+		"home": "h",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-11",
+		"home": "l",
+		"away": "c",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-11",
+		"home": "m",
+		"away": "d",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-12",
+		"home": "b",
+		"away": "t",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-12",
+		"home": "e",
+		"away": "c",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-12",
+		"home": "f",
+		"away": "d",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-12",
+		"home": "h",
+		"away": "s",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-12",
+		"home": "l",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-12",
+		"home": "m",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-13",
+		"home": "b",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-13",
+		"home": "e",
+		"away": "c",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-13",
+		"home": "f",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-13",
+		"home": "h",
+		"away": "s",
+		"homeScore": 8,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-13",
+		"home": "l",
+		"away": "g",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-13",
+		"home": "m",
+		"away": "db",
+		"homeScore": 6,
+		"awayScore": 16,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-14",
+		"home": "b",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-14",
+		"home": "e",
+		"away": "c",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-14",
+		"home": "f",
+		"away": "d",
+		"homeScore": 5,
+		"awayScore": 9,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-14",
+		"home": "h",
+		"away": "s",
+		"homeScore": 0,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-14",
+		"home": "l",
+		"away": "g",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-14",
+		"home": "m",
+		"away": "db",
+		"homeScore": 6,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-16",
+		"home": "c",
+		"away": "f",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-16",
+		"home": "t",
+		"away": "l",
+		"homeScore": 0,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-17",
+		"home": "t",
+		"away": "e",
+		"homeScore": 10,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-19",
+		"home": "b",
+		"away": "l",
+		"homeScore": 6,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-19",
+		"home": "db",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 11,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-19",
+		"home": "f",
+		"away": "h",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-19",
+		"home": "g",
+		"away": "d",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-19",
+		"home": "m",
+		"away": "e",
+		"homeScore": 8,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-19",
+		"home": "s",
+		"away": "c",
+		"homeScore": 9,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-20",
+		"home": "b",
+		"away": "l",
+		"homeScore": 0,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-20",
+		"home": "db",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "横浜",
+		"startTime": "18:15"
+	},
+	{
+		"date": "2026-06-20",
+		"home": "f",
+		"away": "h",
+		"homeScore": 7,
+		"awayScore": 10,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-20",
+		"home": "g",
+		"away": "d",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-20",
+		"home": "m",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-20",
+		"home": "s",
+		"away": "c",
+		"homeScore": 6,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-21",
+		"home": "b",
+		"away": "l",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-21",
+		"home": "db",
+		"away": "t",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-21",
+		"home": "f",
+		"away": "h",
+		"homeScore": 0,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-21",
+		"home": "g",
+		"away": "d",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-21",
+		"home": "m",
+		"away": "e",
+		"homeScore": 7,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-21",
+		"home": "s",
+		"away": "c",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-22",
+		"home": "e",
+		"away": "l",
+		"homeScore": 8,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-23",
+		"home": "c",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-23",
+		"home": "d",
+		"away": "db",
+		"homeScore": 5,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "岐阜",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-23",
+		"home": "e",
+		"away": "l",
+		"homeScore": 8,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "山形市",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-23",
+		"home": "f",
+		"away": "m",
+		"homeScore": 4,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-23",
+		"home": "h",
+		"away": "b",
+		"homeScore": 0,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-23",
+		"home": "t",
+		"away": "s",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-24",
+		"home": "c",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "マツダスタジアム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-24",
+		"home": "d",
+		"away": "db",
+		"homeScore": 4,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-24",
+		"home": "f",
+		"away": "m",
+		"homeScore": 7,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-24",
+		"home": "h",
+		"away": "b",
+		"homeScore": 8,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-24",
+		"home": "t",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-25",
+		"home": "d",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-25",
+		"home": "e",
+		"away": "l",
+		"homeScore": 2,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-25",
+		"home": "h",
+		"away": "b",
+		"homeScore": 5,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-25",
+		"home": "t",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-26",
+		"home": "c",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "マツダスタジアム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-26",
+		"home": "db",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "横浜",
+		"startTime": "18:15"
+	},
+	{
+		"date": "2026-06-26",
+		"home": "l",
+		"away": "f",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-26",
+		"home": "m",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-26",
+		"home": "s",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-27",
+		"home": "b",
+		"away": "e",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ほっと神戸",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-27",
+		"home": "c",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-27",
+		"home": "db",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "横浜",
+		"startTime": "18:15"
+	},
+	{
+		"date": "2026-06-27",
+		"home": "l",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-27",
+		"home": "m",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-27",
+		"home": "s",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-06-28",
+		"home": "b",
+		"away": "e",
+		"homeScore": 5,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ほっと神戸",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-28",
+		"home": "c",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 12,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-28",
+		"home": "db",
+		"away": "g",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-28",
+		"home": "l",
+		"away": "f",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-28",
+		"home": "m",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-28",
+		"home": "s",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-30",
+		"home": "db",
+		"away": "c",
+		"homeScore": 4,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "ハードオフ新潟",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-30",
+		"home": "e",
+		"away": "m",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-30",
+		"home": "f",
+		"away": "b",
+		"homeScore": 9,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-30",
+		"home": "g",
+		"away": "s",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "弘前",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-30",
+		"home": "h",
+		"away": "l",
+		"homeScore": 6,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-06-30",
+		"home": "t",
+		"away": "d",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-01",
+		"home": "e",
+		"away": "m",
+		"homeScore": 0,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "郡山",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-01",
+		"home": "f",
+		"away": "b",
+		"homeScore": 6,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-01",
+		"home": "g",
+		"away": "s",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "盛岡",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-01",
+		"home": "h",
+		"away": "l",
+		"homeScore": 11,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-01",
+		"home": "t",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-07-02",
+		"home": "db",
+		"away": "c",
+		"homeScore": 3,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-02",
+		"home": "f",
+		"away": "b",
+		"homeScore": 9,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-02",
+		"home": "h",
+		"away": "l",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-02",
+		"home": "t",
+		"away": "d",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-03",
+		"home": "b",
+		"away": "l",
+		"homeScore": 4,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ほっと神戸",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-03",
+		"home": "d",
+		"away": "g",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-03",
+		"home": "e",
+		"away": "f",
+		"homeScore": 8,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-03",
+		"home": "h",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-03",
+		"home": "s",
+		"away": "db",
+		"homeScore": 2,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-03",
+		"home": "t",
+		"away": "c",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-04",
+		"home": "b",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "ほっと神戸",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-07-04",
+		"home": "d",
+		"away": "g",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-04",
+		"home": "e",
+		"away": "f",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-04",
+		"home": "h",
+		"away": "m",
+		"homeScore": 1,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-04",
+		"home": "s",
+		"away": "db",
+		"homeScore": 1,
+		"awayScore": 12,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-04",
+		"home": "t",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-07-05",
+		"home": "b",
+		"away": "l",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-05",
+		"home": "d",
+		"away": "g",
+		"homeScore": 0,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-05",
+		"home": "e",
+		"away": "f",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-05",
+		"home": "h",
+		"away": "m",
+		"homeScore": 7,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-05",
+		"home": "s",
+		"away": "db",
+		"homeScore": 4,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-05",
+		"home": "t",
+		"away": "c",
+		"homeScore": 6,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-07",
+		"home": "b",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-07",
+		"home": "c",
+		"away": "s",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-07",
+		"home": "db",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-07",
+		"home": "g",
+		"away": "t",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-07",
+		"home": "l",
+		"away": "e",
+		"homeScore": 6,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "那覇",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-07",
+		"home": "m",
+		"away": "f",
+		"homeScore": 10,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-08",
+		"home": "b",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-08",
+		"home": "c",
+		"away": "s",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-08",
+		"home": "db",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-08",
+		"home": "g",
+		"away": "t",
+		"homeScore": 1,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-08",
+		"home": "l",
+		"away": "e",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "那覇",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-08",
+		"home": "m",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-09",
+		"home": "c",
+		"away": "s",
+		"homeScore": 0,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-09",
+		"home": "db",
+		"away": "d",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-09",
+		"home": "g",
+		"away": "t",
+		"homeScore": 2,
+		"awayScore": 10,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-10",
+		"home": "d",
+		"away": "c",
+		"homeScore": 10,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-10",
+		"home": "db",
+		"away": "g",
+		"homeScore": 11,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-10",
+		"home": "f",
+		"away": "l",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-10",
+		"home": "h",
+		"away": "e",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-10",
+		"home": "m",
+		"away": "b",
+		"homeScore": 8,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-10",
+		"home": "t",
+		"away": "s",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-11",
+		"home": "d",
+		"away": "c",
+		"homeScore": 8,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-11",
+		"home": "db",
+		"away": "g",
+		"homeScore": 4,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-11",
+		"home": "f",
+		"away": "l",
+		"homeScore": 8,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-11",
+		"home": "h",
+		"away": "e",
+		"homeScore": 9,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-11",
+		"home": "m",
+		"away": "b",
+		"homeScore": 3,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-11",
+		"home": "t",
+		"away": "s",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-12",
+		"home": "d",
+		"away": "c",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-12",
+		"home": "db",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-12",
+		"home": "f",
+		"away": "l",
+		"homeScore": 1,
+		"awayScore": 12,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-12",
+		"home": "h",
+		"away": "e",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-12",
+		"home": "m",
+		"away": "b",
+		"homeScore": 2,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-12",
+		"home": "t",
+		"away": "s",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-14",
+		"home": "c",
+		"away": "db",
+		"homeScore": 4,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-14",
+		"home": "d",
+		"away": "t",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-14",
+		"home": "e",
+		"away": "b",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-14",
+		"home": "f",
+		"away": "h",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-14",
+		"home": "l",
+		"away": "m",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-14",
+		"home": "s",
+		"away": "g",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-15",
+		"home": "c",
+		"away": "db",
+		"homeScore": 6,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-15",
+		"home": "d",
+		"away": "t",
+		"homeScore": 6,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-15",
+		"home": "e",
+		"away": "b",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-15",
+		"home": "f",
+		"away": "h",
+		"homeScore": 7,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-15",
+		"home": "l",
+		"away": "m",
+		"homeScore": 7,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-15",
+		"home": "s",
+		"away": "g",
+		"homeScore": 2,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-16",
+		"home": "d",
+		"away": "t",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-16",
+		"home": "e",
+		"away": "b",
+		"homeScore": 12,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-16",
+		"home": "f",
+		"away": "h",
+		"homeScore": 2,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-16",
+		"home": "l",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-16",
+		"home": "s",
+		"away": "g",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-17",
+		"home": "c",
+		"away": "t",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-17",
+		"home": "db",
+		"away": "s",
+		"homeScore": 12,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-17",
+		"home": "g",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-18",
+		"home": "b",
+		"away": "f",
+		"homeScore": 0,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-18",
+		"home": "c",
+		"away": "t",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-18",
+		"home": "db",
+		"away": "s",
+		"homeScore": 8,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-18",
+		"home": "e",
+		"away": "l",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-18",
+		"home": "g",
+		"away": "d",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-18",
+		"home": "m",
+		"away": "h",
+		"homeScore": 4,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-19",
+		"home": "b",
+		"away": "f",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-19",
+		"home": "c",
+		"away": "t",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-19",
+		"home": "db",
+		"away": "s",
+		"homeScore": 5,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-19",
+		"home": "e",
+		"away": "l",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-19",
+		"home": "g",
+		"away": "d",
+		"homeScore": 6,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-19",
+		"home": "m",
+		"away": "h",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-20",
+		"home": "b",
+		"away": "f",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-20",
+		"home": "e",
+		"away": "l",
+		"homeScore": 4,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-20",
+		"home": "g",
+		"away": "c",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-20",
+		"home": "m",
+		"away": "h",
+		"homeScore": 4,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-20",
+		"home": "s",
+		"away": "d",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-20",
+		"home": "t",
+		"away": "db",
+		"homeScore": 0,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-21",
+		"home": "g",
+		"away": "c",
+		"homeScore": 11,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-21",
+		"home": "h",
+		"away": "b",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-21",
+		"home": "s",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 11,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-21",
+		"home": "t",
+		"away": "db",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-22",
+		"home": "g",
+		"away": "c",
+		"homeScore": 1,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-22",
+		"home": "h",
+		"away": "b",
+		"homeScore": 22,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-22",
+		"home": "l",
+		"away": "f",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-22",
+		"home": "m",
+		"away": "e",
+		"homeScore": 10,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-22",
+		"home": "s",
+		"away": "d",
+		"homeScore": 8,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-22",
+		"home": "t",
+		"away": "db",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-23",
+		"home": "h",
+		"away": "b",
+		"homeScore": 6,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-23",
+		"home": "l",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 11,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-23",
+		"home": "m",
+		"away": "e",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-24",
+		"home": "b",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-24",
+		"home": "d",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-24",
+		"home": "l",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-24",
+		"home": "s",
+		"away": "c",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-24",
+		"home": "t",
+		"away": "g",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-25",
+		"home": "b",
+		"away": "m",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-25",
+		"home": "d",
+		"away": "db",
+		"homeScore": 0,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-25",
+		"home": "f",
+		"away": "e",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-25",
+		"home": "l",
+		"away": "h",
+		"homeScore": 8,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-25",
+		"home": "s",
+		"away": "c",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-25",
+		"home": "t",
+		"away": "g",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-26",
+		"home": "b",
+		"away": "m",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-26",
+		"home": "d",
+		"away": "db",
+		"homeScore": 5,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-26",
+		"home": "f",
+		"away": "e",
+		"homeScore": 6,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-26",
+		"home": "l",
+		"away": "h",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-26",
+		"home": "s",
+		"away": "c",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-26",
+		"home": "t",
+		"away": "g",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-31",
+		"home": "c",
+		"away": "d",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-31",
+		"home": "e",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "楽天モバイル",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-07-31",
+		"home": "f",
+		"away": "m",
+		"homeScore": 6,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-31",
+		"home": "g",
+		"away": "db",
+		"homeScore": 6,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-31",
+		"home": "l",
+		"away": "b",
+		"homeScore": 4,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-07-31",
+		"home": "s",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-01",
+		"home": "c",
+		"away": "d",
+		"homeScore": 1,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-01",
+		"home": "e",
+		"away": "h",
+		"homeScore": 0,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-01",
+		"home": "f",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-01",
+		"home": "g",
+		"away": "db",
+		"homeScore": 7,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-01",
+		"home": "l",
+		"away": "b",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-01",
+		"home": "s",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-02",
+		"home": "c",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-02",
+		"home": "e",
+		"away": "h",
+		"homeScore": 6,
+		"awayScore": 10,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-02",
+		"home": "f",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-02",
+		"home": "g",
+		"away": "db",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-02",
+		"home": "l",
+		"away": "b",
+		"homeScore": 5,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-02",
+		"home": "s",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-03",
+		"home": "b",
+		"away": "e",
+		"homeScore": 9,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-04",
+		"home": "c",
+		"away": "g",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-04",
+		"home": "d",
+		"away": "s",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-04",
+		"home": "db",
+		"away": "t",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-04",
+		"home": "h",
+		"away": "f",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-04",
+		"home": "m",
+		"away": "l",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-05",
+		"home": "b",
+		"away": "e",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-05",
+		"home": "c",
+		"away": "g",
+		"homeScore": 0,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-05",
+		"home": "d",
+		"away": "s",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-05",
+		"home": "db",
+		"away": "t",
+		"homeScore": 11,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-05",
+		"home": "h",
+		"away": "f",
+		"homeScore": 7,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-05",
+		"home": "m",
+		"away": "l",
+		"homeScore": 8,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-06",
+		"home": "b",
+		"away": "e",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-06",
+		"home": "c",
+		"away": "g",
+		"homeScore": 7,
+		"awayScore": 11,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-06",
+		"home": "d",
+		"away": "s",
+		"homeScore": 5,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-06",
+		"home": "db",
+		"away": "t",
+		"homeScore": 5,
+		"awayScore": 10,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-06",
+		"home": "h",
+		"away": "f",
+		"homeScore": 2,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-07",
+		"home": "db",
+		"away": "c",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-07",
+		"home": "f",
+		"away": "e",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-07",
+		"home": "g",
+		"away": "s",
+		"homeScore": 0,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-07",
+		"home": "l",
+		"away": "h",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-07",
+		"home": "m",
+		"away": "b",
+		"homeScore": 2,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-07",
+		"home": "t",
+		"away": "d",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-08",
+		"home": "db",
+		"away": "c",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-08",
+		"home": "f",
+		"away": "e",
+		"homeScore": 0,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-08",
+		"home": "g",
+		"away": "s",
+		"homeScore": 8,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-08",
+		"home": "l",
+		"away": "h",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-08",
+		"home": "m",
+		"away": "b",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-08",
+		"home": "t",
+		"away": "d",
+		"homeScore": 1,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-09",
+		"home": "db",
+		"away": "c",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-09",
+		"home": "f",
+		"away": "e",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-09",
+		"home": "g",
+		"away": "s",
+		"homeScore": 7,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-09",
+		"home": "l",
+		"away": "h",
+		"homeScore": 0,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-09",
+		"home": "m",
+		"away": "b",
+		"homeScore": 7,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-09",
+		"home": "t",
+		"away": "d",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-11",
+		"home": "d",
+		"away": "db",
+		"homeScore": 5,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-11",
+		"home": "e",
+		"away": "b",
+		"homeScore": 1,
+		"awayScore": 9,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-11",
+		"home": "f",
+		"away": "l",
+		"homeScore": 0,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-11",
+		"home": "g",
+		"away": "t",
+		"homeScore": 1,
+		"awayScore": 9,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-11",
+		"home": "h",
+		"away": "m",
+		"homeScore": 16,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-11",
+		"home": "s",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-08-12",
+		"home": "d",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-12",
+		"home": "e",
+		"away": "b",
+		"homeScore": 7,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-12",
+		"home": "f",
+		"away": "l",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-12",
+		"home": "g",
+		"away": "t",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-12",
+		"home": "h",
+		"away": "m",
+		"homeScore": 10,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-12",
+		"home": "s",
+		"away": "c",
+		"homeScore": 12,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-13",
+		"home": "d",
+		"away": "db",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-13",
+		"home": "e",
+		"away": "b",
+		"homeScore": 2,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-13",
+		"home": "f",
+		"away": "l",
+		"homeScore": 8,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-13",
+		"home": "g",
+		"away": "t",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-13",
+		"home": "h",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-13",
+		"home": "s",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-08-14",
+		"home": "b",
+		"away": "f",
+		"homeScore": 6,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-14",
+		"home": "c",
+		"away": "t",
+		"homeScore": 6,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-14",
+		"home": "d",
+		"away": "g",
+		"homeScore": 0,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-14",
+		"home": "h",
+		"away": "e",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-14",
+		"home": "l",
+		"away": "m",
+		"homeScore": 7,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-14",
+		"home": "s",
+		"away": "db",
+		"homeScore": 7,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-15",
+		"home": "b",
+		"away": "f",
+		"homeScore": 4,
+		"awayScore": 12,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-15",
+		"home": "c",
+		"away": "t",
+		"homeScore": 5,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-15",
+		"home": "d",
+		"away": "g",
+		"homeScore": 11,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-15",
+		"home": "h",
+		"away": "e",
+		"homeScore": 4,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-15",
+		"home": "l",
+		"away": "m",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-15",
+		"home": "s",
+		"away": "db",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-16",
+		"home": "b",
+		"away": "f",
+		"homeScore": 7,
+		"awayScore": 13,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-16",
+		"home": "c",
+		"away": "t",
+		"homeScore": 1,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-16",
+		"home": "d",
+		"away": "g",
+		"homeScore": 0,
+		"awayScore": 11,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-16",
+		"home": "h",
+		"away": "e",
+		"homeScore": 6,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-16",
+		"home": "l",
+		"away": "m",
+		"homeScore": 7,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-16",
+		"home": "s",
+		"away": "db",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-18",
+		"home": "c",
+		"away": "d",
+		"homeScore": 11,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-18",
+		"home": "db",
+		"away": "g",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-18",
+		"home": "e",
+		"away": "m",
+		"homeScore": 6,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-18",
+		"home": "f",
+		"away": "h",
+		"homeScore": 1,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-18",
+		"home": "l",
+		"away": "b",
+		"homeScore": 7,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-18",
+		"home": "t",
+		"away": "s",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-19",
+		"home": "c",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-19",
+		"home": "db",
+		"away": "g",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-19",
+		"home": "e",
+		"away": "m",
+		"homeScore": 5,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-19",
+		"home": "f",
+		"away": "h",
+		"homeScore": 8,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-19",
+		"home": "l",
+		"away": "b",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-19",
+		"home": "t",
+		"away": "s",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-20",
+		"home": "c",
+		"away": "d",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-20",
+		"home": "db",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-20",
+		"home": "e",
+		"away": "m",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-20",
+		"home": "f",
+		"away": "h",
+		"homeScore": 5,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-20",
+		"home": "l",
+		"away": "b",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-20",
+		"home": "t",
+		"away": "s",
+		"homeScore": 1,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-21",
+		"home": "d",
+		"away": "s",
+		"homeScore": 3,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-21",
+		"home": "db",
+		"away": "t",
+		"homeScore": 1,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-21",
+		"home": "e",
+		"away": "l",
+		"homeScore": 4,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-21",
+		"home": "g",
+		"away": "c",
+		"homeScore": 2,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-21",
+		"home": "m",
+		"away": "f",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-22",
+		"home": "d",
+		"away": "s",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-22",
+		"home": "db",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-08-22",
+		"home": "e",
+		"away": "l",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-22",
+		"home": "g",
+		"away": "c",
+		"homeScore": 5,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-22",
+		"home": "h",
+		"away": "b",
+		"homeScore": 7,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-22",
+		"home": "m",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-08-23",
+		"home": "d",
+		"away": "s",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-23",
+		"home": "db",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-23",
+		"home": "e",
+		"away": "l",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "楽天モバイル",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-23",
+		"home": "g",
+		"away": "c",
+		"homeScore": 2,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "東京ドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-23",
+		"home": "h",
+		"away": "b",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "みずほPayPay",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-23",
+		"home": "m",
+		"away": "f",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-25",
+		"home": "b",
+		"away": "e",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-25",
+		"home": "c",
+		"away": "db",
+		"homeScore": 8,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-25",
+		"home": "d",
+		"away": "t",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-25",
+		"home": "l",
+		"away": "f",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-25",
+		"home": "m",
+		"away": "h",
+		"homeScore": 0,
+		"awayScore": 9,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-25",
+		"home": "s",
+		"away": "g",
+		"homeScore": 6,
+		"awayScore": 8,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-26",
+		"home": "b",
+		"away": "e",
+		"homeScore": 7,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-26",
+		"home": "c",
+		"away": "db",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-26",
+		"home": "d",
+		"away": "t",
+		"homeScore": 4,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-26",
+		"home": "l",
+		"away": "f",
+		"homeScore": 1,
+		"awayScore": 9,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-26",
+		"home": "m",
+		"away": "h",
+		"homeScore": 6,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-26",
+		"home": "s",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-27",
+		"home": "b",
+		"away": "e",
+		"homeScore": 4,
+		"awayScore": 12,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-27",
+		"home": "c",
+		"away": "db",
+		"homeScore": 1,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-27",
+		"home": "d",
+		"away": "t",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-27",
+		"home": "m",
+		"away": "h",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-27",
+		"home": "s",
+		"away": "g",
+		"homeScore": 2,
+		"awayScore": 9,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-28",
+		"home": "b",
+		"away": "h",
+		"homeScore": 0,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-28",
+		"home": "c",
+		"away": "s",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-28",
+		"home": "db",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-28",
+		"home": "f",
+		"away": "m",
+		"homeScore": 6,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-28",
+		"home": "l",
+		"away": "e",
+		"homeScore": 8,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-28",
+		"home": "t",
+		"away": "g",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-29",
+		"home": "b",
+		"away": "h",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-29",
+		"home": "c",
+		"away": "s",
+		"homeScore": 1,
+		"awayScore": 9,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-29",
+		"home": "db",
+		"away": "d",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-29",
+		"home": "f",
+		"away": "m",
+		"homeScore": 9,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-29",
+		"home": "l",
+		"away": "e",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-29",
+		"home": "t",
+		"away": "g",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-30",
+		"home": "b",
+		"away": "h",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-30",
+		"home": "c",
+		"away": "s",
+		"homeScore": 5,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "マツダスタジアム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-30",
+		"home": "db",
+		"away": "d",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "横浜",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-30",
+		"home": "f",
+		"away": "m",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-30",
+		"home": "l",
+		"away": "e",
+		"homeScore": 4,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "ベルーナドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-08-30",
+		"home": "t",
+		"away": "g",
+		"homeScore": 3,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "甲子園",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-01",
+		"home": "d",
+		"away": "c",
+		"homeScore": 1,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-01",
+		"home": "e",
+		"away": "b",
+		"homeScore": 5,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "秋田",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-01",
+		"home": "f",
+		"away": "h",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-01",
+		"home": "g",
+		"away": "db",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-01",
+		"home": "m",
+		"away": "l",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "ZOZOマリン",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-01",
+		"home": "s",
+		"away": "t",
+		"homeScore": 2,
+		"awayScore": 6,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-02",
+		"home": "d",
+		"away": "c",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-02",
+		"home": "e",
+		"away": "b",
+		"homeScore": 4,
+		"awayScore": 0,
+		"status": "final",
+		"venue": "盛岡",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-02",
+		"home": "f",
+		"away": "h",
+		"homeScore": 1,
+		"awayScore": 1,
+		"status": "final",
+		"venue": "エスコンＦ",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-02",
+		"home": "g",
+		"away": "db",
+		"homeScore": 1,
+		"awayScore": 2,
+		"status": "final",
+		"venue": "京セラD大阪",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-02",
+		"home": "s",
+		"away": "t",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-03",
+		"home": "d",
+		"away": "c",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
+		"venue": "バンテリンドーム",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-03",
+		"home": "s",
+		"away": "t",
+		"homeScore": 4,
+		"awayScore": 7,
+		"status": "final",
+		"venue": "神宮",
+		"startTime": null
+	},
+	{
+		"date": "2026-09-04",
+		"home": "b",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "京セラD大阪",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-04",
+		"home": "c",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "マツダスタジアム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-04",
+		"home": "e",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "楽天モバイル",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-04",
+		"home": "h",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-04",
+		"home": "s",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-05",
+		"home": "b",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "京セラD大阪",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-05",
+		"home": "c",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "マツダスタジアム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-05",
+		"home": "e",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "楽天モバイル",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-05",
+		"home": "h",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-05",
+		"home": "s",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-05",
+		"home": "t",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-06",
+		"home": "b",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "京セラD大阪",
+		"startTime": "13:00"
+	},
+	{
+		"date": "2026-09-06",
+		"home": "c",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "マツダスタジアム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-06",
+		"home": "e",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "楽天モバイル",
+		"startTime": "16:00"
+	},
+	{
+		"date": "2026-09-06",
+		"home": "h",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "13:00"
+	},
+	{
+		"date": "2026-09-06",
+		"home": "s",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "17:00"
+	},
+	{
+		"date": "2026-09-06",
+		"home": "t",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-08",
+		"home": "b",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "京セラD大阪",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-08",
+		"home": "db",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-08",
+		"home": "g",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-08",
+		"home": "h",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-08",
+		"home": "m",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-08",
+		"home": "t",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-09",
+		"home": "b",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ほっと神戸",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-09",
+		"home": "db",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-09",
+		"home": "g",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-09",
+		"home": "h",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-09",
+		"home": "m",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-09",
+		"home": "t",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-10",
+		"home": "b",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ほっと神戸",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-10",
+		"home": "db",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-10",
+		"home": "g",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-10",
+		"home": "h",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-10",
+		"home": "m",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-10",
+		"home": "t",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-11",
+		"home": "b",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "京セラD大阪",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-11",
+		"home": "c",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "マツダスタジアム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-11",
+		"home": "h",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-12",
+		"home": "b",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "京セラD大阪",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-12",
+		"home": "c",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "マツダスタジアム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-12",
+		"home": "d",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "バンテリンドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-12",
+		"home": "g",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-12",
+		"home": "h",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-12",
+		"home": "l",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ベルーナドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-13",
+		"home": "db",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-13",
+		"home": "h",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "13:30"
+	},
+	{
+		"date": "2026-09-13",
+		"home": "l",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ベルーナドーム",
+		"startTime": "17:00"
+	},
+	{
+		"date": "2026-09-13",
+		"home": "s",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-13",
+		"home": "t",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-14",
+		"home": "db",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-14",
+		"home": "s",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-14",
+		"home": "t",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-15",
+		"home": "b",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "京セラD大阪",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-15",
+		"home": "db",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-15",
+		"home": "e",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "楽天モバイル",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-15",
+		"home": "f",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "エスコンＦ",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-15",
+		"home": "s",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-15",
+		"home": "t",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-16",
+		"home": "b",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "京セラD大阪",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-16",
+		"home": "m",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-17",
+		"home": "b",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "京セラD大阪",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-17",
+		"home": "f",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "エスコンＦ",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-17",
+		"home": "m",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-17",
+		"home": "s",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-17",
+		"home": "t",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-18",
+		"home": "db",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-18",
+		"home": "g",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-18",
+		"home": "t",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-19",
+		"home": "db",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-19",
+		"home": "e",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "楽天モバイル",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-19",
+		"home": "f",
+		"away": "b",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "エスコンＦ",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-19",
+		"home": "g",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-19",
+		"home": "m",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-19",
+		"home": "t",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-20",
+		"home": "d",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "バンテリンドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-20",
+		"home": "e",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "楽天モバイル",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-20",
+		"home": "f",
+		"away": "b",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "エスコンＦ",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-20",
+		"home": "g",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-20",
+		"home": "m",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-20",
+		"home": "t",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-21",
+		"home": "d",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "バンテリンドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-21",
+		"home": "e",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "楽天モバイル",
+		"startTime": "13:00"
+	},
+	{
+		"date": "2026-09-21",
+		"home": "f",
+		"away": "b",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "エスコンＦ",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-21",
+		"home": "m",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-21",
+		"home": "t",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-22",
+		"home": "c",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "マツダスタジアム",
+		"startTime": "15:00"
+	},
+	{
+		"date": "2026-09-22",
+		"home": "db",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-22",
+		"home": "f",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "エスコンＦ",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-22",
+		"home": "h",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-22",
+		"home": "m",
+		"away": "b",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-22",
+		"home": "s",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-23",
+		"home": "c",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "マツダスタジアム",
+		"startTime": "15:00"
+	},
+	{
+		"date": "2026-09-23",
+		"home": "db",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-23",
+		"home": "f",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "エスコンＦ",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-23",
+		"home": "h",
+		"away": "l",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-23",
+		"home": "m",
+		"away": "b",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "17:00"
+	},
+	{
+		"date": "2026-09-23",
+		"home": "s",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-24",
+		"home": "c",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "マツダスタジアム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-24",
+		"home": "f",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "エスコンＦ",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-25",
+		"home": "b",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "京セラD大阪",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-25",
+		"home": "c",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "マツダスタジアム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-25",
+		"home": "db",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-25",
+		"home": "l",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ベルーナドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-25",
+		"home": "s",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-26",
+		"home": "b",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "京セラD大阪",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-26",
+		"home": "db",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-26",
+		"home": "h",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-26",
+		"home": "l",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ベルーナドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-26",
+		"home": "s",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-27",
+		"home": "db",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-27",
+		"home": "g",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-27",
+		"home": "h",
+		"away": "b",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "みずほPayPay",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-09-27",
+		"home": "l",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ベルーナドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-27",
+		"home": "m",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-27",
+		"home": "t",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-28",
+		"home": "db",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-28",
+		"home": "l",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ベルーナドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-28",
+		"home": "m",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-29",
+		"home": "db",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-29",
+		"home": "e",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "楽天モバイル",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-29",
+		"home": "g",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-29",
+		"home": "l",
+		"away": "b",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ベルーナドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-29",
+		"home": "t",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-30",
+		"home": "e",
+		"away": "m",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "楽天モバイル",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-09-30",
+		"home": "t",
+		"away": "s",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-01",
+		"home": "c",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "マツダスタジアム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-01",
+		"home": "e",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "楽天モバイル",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-01",
+		"home": "t",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-02",
+		"home": "m",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-02",
+		"home": "s",
+		"away": "g",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-03",
+		"home": "c",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "マツダスタジアム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-10-03",
+		"home": "e",
+		"away": "b",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "楽天モバイル",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-03",
+		"home": "g",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-03",
+		"home": "m",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-03",
+		"home": "s",
+		"away": "d",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-04",
+		"home": "db",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-04",
+		"home": "m",
+		"away": "e",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-04",
+		"home": "s",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "神宮",
+		"startTime": "18:00"
+	}
+]

@@ -1,0 +1,40 @@
+{
+	"name": "npb-pennant",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"engines": {
+		"node": ">=22"
+	},
+	"scripts": {
+		"dev": "astro dev --host",
+		"build": "astro build",
+		"preview": "astro preview --host",
+		"check": "astro check && tsc --noEmit",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"scrape": "tsx scripts/scrape.ts",
+		"snapshot": "tsx scripts/snapshot.ts",
+		"format": "prettier --write .",
+		"verify": "tsx scripts/verify-standings.ts",
+		"update": "npm run scrape && npm run verify && npm run snapshot"
+	},
+	"dependencies": {
+		"@astrojs/svelte": "^9.0.1",
+		"astro": "^7.3.1",
+		"svelte": "^5.56.8"
+	},
+	"devDependencies": {
+		"@tailwindcss/vite": "^4.3.3",
+		"@types/node": "^26.4.1",
+		"cheerio": "^1.1.2",
+		"prettier": "^3.8.3",
+		"prettier-plugin-astro": "^0.14.1",
+		"prettier-plugin-svelte": "^3.4.0",
+		"prettier-plugin-tailwindcss": "^0.7.0",
+		"tailwindcss": "^4.3.3",
+		"tsx": "^4.21.0",
+		"typescript": "^6.0.3",
+		"vitest": "^3.2.4"
+	}
+}

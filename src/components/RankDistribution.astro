@@ -1,0 +1,57 @@
+---
+import { getTeam } from '../engine/teams.ts';
+import { percent } from '../lib/format.ts';
+import type { TeamSnapshot } from '../lib/snapshot.ts';
+
+interface Props {
+	standings: TeamSnapshot[];
+}
+
+const { standings } = Astro.props;
+
+/** 順位が下がるほど不透明度を落として、1位ほど濃く見えるようにする */
+const opacityFor = (rank: number) => 1 - rank * 0.15;
+---
+
+<div class="card p-4">
+	<h3 class="text-sm font-semibold">最終順位の確率</h3>
+	<p style="color: var(--ink-soft)" class="mt-1 mb-4 text-xs">
+		濃い側が上位。左から1位・2位…の確率を積み上げている。
+	</p>
+
+	<div class="space-y-2">
+		{
+			standings.map((team) => {
+				const color = getTeam(team.teamId).color;
+				return (
+					<div class="flex items-center gap-3">
+						<span class="w-24 shrink-0 text-xs whitespace-nowrap">
+							{getTeam(team.teamId).short}
+						</span>
+						<div
+							class="flex h-5 flex-1 overflow-hidden rounded"
+							style="background: var(--line)"
+							role="img"
+							aria-label={team.rankProbabilities
+								.map((p, rank) => `${rank + 1}位 ${percent(p)}`)
+								.join('、')}
+						>
+							{team.rankProbabilities.map((probability, rank) =>
+								probability > 0 ? (
+									<div
+										style={`width: ${probability * 100}%; background: ${color}; opacity: ${opacityFor(rank)}`}
+										title={`${rank + 1}位 ${percent(probability)}`}
+									/>
+								) : null
+							)}
+						</div>
+						<span class="tnum w-14 shrink-0 text-right text-xs" style="color: var(--ink-soft)">
+							{percent(team.playoffProbability)}
+						</span>
+					</div>
+				);
+			})
+		}
+	</div>
+	<p style="color: var(--ink-faint)" class="mt-3 text-xs">右端の数字はCS進出（3位以内）の確率。</p>
+</div>

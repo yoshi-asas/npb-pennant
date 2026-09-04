@@ -1,0 +1,109 @@
+---
+import { getTeam } from '../engine/teams.ts';
+import { formatPct, gamesBehindLabel, percent } from '../lib/format.ts';
+import type { TeamSnapshot } from '../lib/snapshot.ts';
+
+interface Props {
+	standings: TeamSnapshot[];
+	compact?: boolean;
+}
+
+const { standings, compact = false } = Astro.props;
+---
+
+<div class="scroll-x card">
+	<table class="tnum w-full min-w-[46rem] border-collapse text-sm">
+		<thead>
+			<tr style="color: var(--ink-soft); border-color: var(--line)" class="border-b text-xs">
+				<th class="px-2 py-2.5 text-right font-medium">順</th>
+				<th class="px-2 py-2.5 text-left font-medium">球団</th>
+				<th class="px-2 py-2.5 text-right font-medium">試合</th>
+				<th class="px-2 py-2.5 text-right font-medium">勝</th>
+				<th class="px-2 py-2.5 text-right font-medium">敗</th>
+				<th class="px-2 py-2.5 text-right font-medium">分</th>
+				<th class="px-2 py-2.5 text-right font-medium">勝率</th>
+				<th class="px-2 py-2.5 text-right font-medium">差</th>
+				<th class="px-2 py-2.5 text-right font-medium">残</th>
+				<th class="px-3 py-2.5 text-right font-medium">優勝</th>
+				{!compact && <th class="px-2 py-2.5 text-right font-medium">CS</th>}
+				{!compact && <th class="px-3 py-2.5 text-left font-medium">状況</th>}
+			</tr>
+		</thead>
+		<tbody>
+			{
+				standings.map((row) => {
+					const team = getTeam(row.teamId);
+					const dimmed = !row.alive;
+					return (
+						<tr
+							style={`border-color: var(--line); ${dimmed ? 'opacity: 0.55' : ''}`}
+							class="border-b last:border-b-0"
+						>
+							<td style="color: var(--ink-faint)" class="px-2 py-2.5 text-right">
+								{row.rank}
+							</td>
+							<td class="px-2 py-2.5">
+								<a
+									href={`/team/${team.slug}/`}
+									class="flex items-center gap-2 whitespace-nowrap no-underline hover:underline"
+								>
+									<span
+										aria-hidden="true"
+										class="inline-block h-3.5 w-1 rounded-full"
+										style={`background: ${team.color}`}
+									/>
+									{team.short}
+								</a>
+							</td>
+							<td class="px-2 py-2.5 text-right">{row.games}</td>
+							<td class="px-2 py-2.5 text-right font-semibold">{row.wins}</td>
+							<td class="px-2 py-2.5 text-right">{row.losses}</td>
+							<td style="color: var(--ink-faint)" class="px-2 py-2.5 text-right">
+								{row.draws}
+							</td>
+							<td class="px-2 py-2.5 text-right">{formatPct(row.pct)}</td>
+							<td style="color: var(--ink-soft)" class="px-2 py-2.5 text-right">
+								{gamesBehindLabel(row.gamesBehind)}
+							</td>
+							<td style="color: var(--ink-soft)" class="px-2 py-2.5 text-right">
+								{row.remaining}
+							</td>
+							<td class="px-3 py-2.5 text-right font-semibold">
+								{percent(row.championProbability)}
+							</td>
+							{!compact && (
+								<td style="color: var(--ink-soft)" class="px-2 py-2.5 text-right">
+									{percent(row.playoffProbability)}
+								</td>
+							)}
+							{!compact && (
+								<td class="px-3 py-2.5 text-left whitespace-nowrap">
+									{row.magicLit && row.magicConventional !== null ? (
+										<span
+											class="rounded px-1.5 py-0.5 text-xs font-bold"
+											style={`background: ${team.color}; color: ${team.color === '#f2c200' || team.color === '#f5c400' ? '#14181d' : '#fff'}`}
+										>
+											M{row.magicConventional}
+										</span>
+									) : !row.alive ? (
+										<span style="color: var(--ink-faint)" class="text-xs">
+											優勝の可能性なし
+										</span>
+									) : !row.selfClinchPossible ? (
+										<span style="color: var(--ink-faint)" class="text-xs">
+											自力優勝消滅
+										</span>
+									) : (
+										<span style="color: var(--good)" class="text-xs">
+											自力優勝あり
+										</span>
+									)}
+								</td>
+							)}
+						</tr>
+					);
+				})
+			}
+		</tbody>
+	</table>
+</div>

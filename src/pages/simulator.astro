@@ -1,0 +1,54 @@
+---
+import Base from '../layouts/Base.astro';
+import Simulator from '../components/Simulator.svelte';
+import type { SeasonSeed } from '../engine/simulate.ts';
+import central from '../../data/2026/seed-central.json';
+import pacific from '../../data/2026/seed-pacific.json';
+
+const seeds = {
+	central: central as unknown as SeasonSeed,
+	pacific: pacific as unknown as SeasonSeed
+};
+---
+
+<Base
+	title="もしもシミュレーター | プロ野球 優勝確率"
+	description="「阪神が残り全勝したら」「巨人が全敗したら」——結果を仮定して優勝確率とCS進出確率を再計算します。"
+>
+	<h1 class="text-2xl font-bold tracking-tight">もしもシミュレーター</h1>
+	<p style="color: var(--ink-soft)" class="mt-2 max-w-2xl text-sm leading-relaxed">
+		「残り全勝」「残り全敗」を球団ごとに指定すると、その条件のもとで優勝確率を計算し直します。
+		計算はブラウザの中で走るので、サーバーへの往復はありません。
+	</p>
+
+	<div class="mt-6">
+		<Simulator seeds={seeds} client:load />
+	</div>
+
+	<section class="card mt-8 p-5">
+		<h2 class="text-base font-bold">仕組み</h2>
+		<ul style="color: var(--ink-soft)" class="mt-3 space-y-2 text-sm leading-relaxed">
+			<li class="flex gap-2">
+				<span style="color: var(--ink-faint)">・</span>
+				<span>
+					指定した球団が絡む残り試合の結果を固定し、それ以外の試合は通常どおり確率的に決着させます。
+				</span>
+			</li>
+			<li class="flex gap-2">
+				<span style="color: var(--ink-faint)">・</span>
+				<span>
+					両チームに「全勝」を指定した直接対決のように、指定が矛盾する試合は
+					どちらにも固定できないので、その試合だけ確率に任せます。
+				</span>
+			</li>
+			<li class="flex gap-2">
+				<span style="color: var(--ink-faint)">・</span>
+				<span>
+					動いているのは、サイトの数字を作っているのと<strong style="color: var(--ink)"
+						>まったく同じ計算エンジン</strong
+					>です。 ビルド時は Node で、ここでは Web Worker で走らせているだけの違いです。
+				</span>
+			</li>
+		</ul>
+	</section>
+</Base>

@@ -1,0 +1,86 @@
+---
+import '../styles/global.css';
+import { timestamp } from '../lib/format.ts';
+import latest from '../../data/2026/latest.json';
+
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title, description } = Astro.props;
+const path = Astro.url.pathname;
+
+const nav = [
+	{ href: '/', label: 'トップ' },
+	{ href: '/central/', label: 'セ・リーグ' },
+	{ href: '/pacific/', label: 'パ・リーグ' },
+	{ href: '/simulator/', label: 'もしも' },
+	{ href: '/method/', label: '計算方法' }
+];
+---
+
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:type" content="website" />
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+	</head>
+	<body class="min-h-screen">
+		<header style="border-color: var(--line)" class="border-b">
+			<div class="mx-auto flex max-w-5xl flex-wrap items-baseline gap-x-5 gap-y-2 px-4 py-4">
+				<a href="/" class="text-base font-bold tracking-tight no-underline"> プロ野球 優勝確率 </a>
+				<nav class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+					{
+						nav.map((item) => {
+							const active = item.href === '/' ? path === '/' : path.startsWith(item.href);
+							return (
+								<a
+									href={item.href}
+									class="no-underline hover:underline"
+									style={`color: ${active ? 'var(--ink)' : 'var(--ink-soft)'}; font-weight: ${active ? 600 : 400}`}
+								>
+									{item.label}
+								</a>
+							);
+						})
+					}
+				</nav>
+			</div>
+		</header>
+
+		<main class="mx-auto max-w-5xl px-4 py-8">
+			<slot />
+		</main>
+
+		<footer
+			style="border-color: var(--line); color: var(--ink-faint)"
+			class="mt-16 border-t text-xs"
+		>
+			<div class="mx-auto max-w-5xl space-y-2 px-4 py-8">
+				<p>
+					{latest.asOfDate} の試合終了時点。{timestamp(latest.generatedAt)} 更新（1日1回）。
+				</p>
+				<p>
+					試合結果の出典:
+					<a
+						href="https://npb.jp/"
+						rel="noopener noreferrer"
+						target="_blank"
+						class="underline underline-offset-2">日本野球機構（NPB）オフィシャルサイト</a
+					>。当サイトは NPB とは関係のない個人の非公式サイトです。
+				</p>
+				<p>
+					優勝確率・優勝決定日は統計モデルによる推定値であり、予言ではありません。前提と限界は
+					<a href="/method/" class="underline underline-offset-2">計算方法</a>に書いています。
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
