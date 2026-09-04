@@ -43,6 +43,7 @@ npm run update    # scrape → verify → snapshot
 - **`npm run scrape -- --months 09` は既存データを消さない**（修正済み）。取得した月だけを差し替えるようにしてある
 - **Svelte のプロキシは `postMessage` で複製できない。** ワーカーへ渡す前に `send()` で JSON 経由の素オブジェクトに落とす。詳細は SPEC §8-1
 - **dev サーバーはユーザーが起動していることが多い。** ポート 4321。既に動いているなら `navigate` でそこへ繋げば画面もコンソールも見られる
+- **`.astro` のテンプレート式に `<=` を書くと `astro check` が落ちる。** `<` をフラグメント開始タグと誤読する。`astro build` は通ってしまうので気づきにくい。比較は frontmatter 側でやって、テンプレートには結果だけ渡す（`ClinchHistogram.astro` の `labelStep` がその例）
 
 ## 設計上、壊してはいけないところ
 

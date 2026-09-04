@@ -41,6 +41,11 @@ const plotHeight = height - padTop - padBottom;
 const slot = byDate.length > 0 ? plotWidth / byDate.length : plotWidth;
 const barWidth = Math.max(3, Math.min(26, slot - 3));
 
+// 日数が多いときは日付ラベルを1日おきに間引く。
+// なお比較を `<=` で書くと astro check が `<` をフラグメント開始タグと誤読するため、
+// テンプレート内には比較演算子を持ち込まずここで段数だけ決めておく。
+const labelStep = byDate.length > 12 ? 2 : 1;
+
 const yTicks = [0, 0.05, 0.1, 0.15, 0.2].filter((t) => t <= peak * 1.05);
 const median = snapshot.clinchDateSummary?.median ?? null;
 ---
@@ -103,7 +108,7 @@ const median = snapshot.clinchDateSummary?.median ?? null;
 				byDate.map((day, index) => {
 					const x = padLeft + index * slot + (slot - barWidth) / 2;
 					let offset = 0;
-					const showLabel = byDate.length <= 12 || index % 2 === 0;
+					const showLabel = index % labelStep === 0;
 					return (
 						<g>
 							{day.segments.map((segment) => {
