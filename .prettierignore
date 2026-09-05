@@ -1,0 +1,10 @@
+# 生成物。prettier が触ると snapshot スクリプトの出力と書式が食い違い、
+# format と snapshot を走らせるたびに差分が往復してしまう。
+data/
+
+# ビルド成果物
+dist/
+.astro/
+.preview/
+node_modules/
+package-lock.json

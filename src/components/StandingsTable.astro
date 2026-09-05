@@ -2,6 +2,7 @@
 import { getTeam } from '../engine/teams.ts';
 import { formatPct, gamesBehindLabel, percent } from '../lib/format.ts';
 import type { TeamSnapshot } from '../lib/snapshot.ts';
+import { url } from '../lib/url.ts';
 
 interface Props {
 	standings: TeamSnapshot[];
@@ -44,7 +45,7 @@ const { standings, compact = false } = Astro.props;
 							</td>
 							<td class="px-2 py-2.5">
 								<a
-									href={`/team/${team.slug}/`}
+									href={url(`/team/${team.slug}/`)}
 									class="flex items-center gap-2 whitespace-nowrap no-underline hover:underline"
 								>
 									<span

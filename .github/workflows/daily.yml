@@ -73,6 +73,8 @@ jobs:
       - run: npm run build
         env:
           SITE_URL: ${{ steps.pages.outputs.base_url }}
+          # プロジェクトページなら '/npb-pennant'、ルート配信なら '/'
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - uses: actions/upload-pages-artifact@v4
         with:

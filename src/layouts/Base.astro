@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { timestamp } from '../lib/format.ts';
+import { url } from '../lib/url.ts';
 import latest from '../../data/2026/latest.json';
 
 interface Props {
@@ -11,13 +12,16 @@ interface Props {
 const { title, description } = Astro.props;
 const path = Astro.url.pathname;
 
+// href は base を含んだ実際のパス。アクティブ判定も同じ土俵で比べる必要があるので、
+// ここで url() を通してから Astro.url.pathname と突き合わせる。
 const nav = [
-	{ href: '/', label: 'トップ' },
-	{ href: '/central/', label: 'セ・リーグ' },
-	{ href: '/pacific/', label: 'パ・リーグ' },
-	{ href: '/simulator/', label: 'もしも' },
-	{ href: '/method/', label: '計算方法' }
+	{ href: url('/'), label: 'トップ' },
+	{ href: url('/central/'), label: 'セ・リーグ' },
+	{ href: url('/pacific/'), label: 'パ・リーグ' },
+	{ href: url('/simulator/'), label: 'もしも' },
+	{ href: url('/method/'), label: '計算方法' }
 ];
+const home = url('/');
 ---
 
 <!doctype html>
@@ -30,16 +34,18 @@ const nav = [
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
 		<meta property="og:type" content="website" />
-		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+		<link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
 	</head>
 	<body class="min-h-screen">
 		<header style="border-color: var(--line)" class="border-b">
 			<div class="mx-auto flex max-w-5xl flex-wrap items-baseline gap-x-5 gap-y-2 px-4 py-4">
-				<a href="/" class="text-base font-bold tracking-tight no-underline"> プロ野球 優勝確率 </a>
+				<a href={home} class="text-base font-bold tracking-tight no-underline">
+					プロ野球 優勝確率
+				</a>
 				<nav class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
 					{
 						nav.map((item) => {
-							const active = item.href === '/' ? path === '/' : path.startsWith(item.href);
+							const active = item.href === home ? path === home : path.startsWith(item.href);
 							return (
 								<a
 									href={item.href}
@@ -78,7 +84,8 @@ const nav = [
 				</p>
 				<p>
 					優勝確率・優勝決定日は統計モデルによる推定値であり、予言ではありません。前提と限界は
-					<a href="/method/" class="underline underline-offset-2">計算方法</a>に書いています。
+					<a href={url('/method/')} class="underline underline-offset-2">計算方法</a
+					>に書いています。
 				</p>
 			</div>
 		</footer>

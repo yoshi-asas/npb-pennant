@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import { getTeam, LEAGUE_NAMES, TEAMS } from '../../engine/teams.ts';
 import { formatPct, gamesBehindLabel, percent, shortDate } from '../../lib/format.ts';
 import type { Snapshot } from '../../lib/snapshot.ts';
+import { url } from '../../lib/url.ts';
 import raw from '../../../data/2026/latest.json';
 
 export function getStaticPaths() {
@@ -40,7 +41,7 @@ const situation = !me.alive
 		<div>
 			<h1 class="text-2xl font-bold tracking-tight">{team.name}</h1>
 			<p style="color: var(--ink-soft)" class="text-sm">
-				<a href={`/${team.league}/`} class="no-underline hover:underline"
+				<a href={url(`/${team.league}/`)} class="no-underline hover:underline"
 					>{LEAGUE_NAMES[team.league].short}</a
 				>
 				{me.rank}位
@@ -115,7 +116,7 @@ const situation = !me.alive
 							<tr style="border-color: var(--line)" class="border-b last:border-b-0">
 								<td class="py-2">
 									<a
-										href={`/team/${getTeam(rival.teamId).slug}/`}
+										href={url(`/team/${getTeam(rival.teamId).slug}/`)}
 										class="flex items-center gap-2 no-underline hover:underline"
 									>
 										<span
@@ -200,7 +201,11 @@ const situation = !me.alive
 	</div>
 
 	<p class="mt-8 text-sm">
-		<a href={`/${team.league}/`} style="color: var(--accent)" class="no-underline hover:underline">
+		<a
+			href={url(`/${team.league}/`)}
+			style="color: var(--accent)"
+			class="no-underline hover:underline"
+		>
 			← {LEAGUE_NAMES[team.league].short}の全体を見る
 		</a>
 	</p>

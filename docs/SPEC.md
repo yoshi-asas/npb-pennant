@@ -64,7 +64,8 @@ npb-pennant/
 │   │   └── *.test.ts                … Vitest
 │   ├── lib/
 │   │   ├── snapshot.ts              … 日次計算結果の型定義（スクリプトとページの契約）
-│   │   └── format.ts                … 表示用の整形（勝率・確率・日付）
+│   │   ├── format.ts                … 表示用の整形（勝率・確率・日付）
+│   │   └── url.ts                   … サイト内リンクに base を付ける
 │   ├── components/
 │   │   ├── StandingsTable.astro     … 順位表（JS 0KB）
 │   │   ├── ClinchHistogram.astro    … 優勝決定日ヒストグラム。ビルド時SVG
@@ -241,6 +242,25 @@ Svelte 5 は props や `$state` を**プロキシで包む**。プロキシは�
 - **ライト/ダーク**: `prefers-color-scheme` でトークンを差し替える
 - **再現性**: 乱数はシード固定。同じデータからは常に同じ結果が出る
 - **性能**: 20,000試行 × 2リーグで約400ms（Node / ブラウザとも）
+
+### 9-1. サブパス配信への対応（記録）
+
+GitHub Pages のプロジェクトページはサイトを `https://<ユーザー名>.github.io/npb-pennant/`
+の下に置く。Astro の `base` を設定してもテンプレートに直書きした `href="/method/"` は
+書き換えられないため、そのままだと全リンクとファビコンが 404 する。`astro build` も
+`astro check` も通ってしまい、ローカルはルート配信なので手元でも再現しない。
+デプロイして初めて壊れる類の問題なので、仕組みで防ぐことにした。
+
+サイト内リンクは `src/lib/url.ts` の `url()` を必ず通す。`base` は
+`astro.config.mjs` が環境変数 `BASE_PATH` から読み、`daily.yml` の build ステップが
+`actions/configure-pages` の `base_path` 出力をそのまま渡す。独自ドメインやユーザー
+ページに移しても `base_path` が `/` になるだけで、コードは変えなくてよい。
+
+ヘッダのナビは現在地の強調に `Astro.url.pathname` を使うので、比較する側も
+`url()` を通した値に揃えてある。片方だけ base 付きだと常に非アクティブになる。
+
+**却下案**: 相対パスで書く。ページの深さ（`/` と `/team/tigers/`）によって `../` の
+数が変わり、共通レイアウトから正しい相対パスを出せない。
 
 ## 10. 既知の制限
 

@@ -4,6 +4,7 @@ import StandingsTable from '../components/StandingsTable.astro';
 import { getTeam, LEAGUE_NAMES } from '../engine/teams.ts';
 import { mediumDate, percent, shortDate } from '../lib/format.ts';
 import type { Snapshot } from '../lib/snapshot.ts';
+import { url } from '../lib/url.ts';
 import raw from '../../data/2026/latest.json';
 
 const latest = raw as unknown as Snapshot;
@@ -32,7 +33,7 @@ const leagues = (['central', 'pacific'] as const).map((id) => latest.leagues[id]
 				const summary = league.clinchDateSummary;
 				return (
 					<a
-						href={`/${league.league}/`}
+						href={url(`/${league.league}/`)}
 						class="card block p-5 no-underline transition-transform hover:-translate-y-0.5"
 					>
 						<div style="color: var(--ink-soft)" class="text-xs">
@@ -83,7 +84,7 @@ const leagues = (['central', 'pacific'] as const).map((id) => latest.leagues[id]
 				<div class="mb-3 flex items-baseline justify-between gap-4">
 					<h2 class="text-lg font-bold">{LEAGUE_NAMES[league.league].short}</h2>
 					<a
-						href={`/${league.league}/`}
+						href={url(`/${league.league}/`)}
 						style="color: var(--accent)"
 						class="text-sm no-underline hover:underline"
 					>
@@ -118,7 +119,8 @@ const leagues = (['central', 'pacific'] as const).map((id) => latest.leagues[id]
 					報道と同じ慣用式で計算した値。他の全球団の自力優勝が消えたときに点灯する。 NPB
 					の勝率は引き分けを分母から除くため、勝利数だけで計算する慣用式は
 					厳密な値とズレることがある。両方の値を
-					<a href="/method/" class="underline underline-offset-2">計算方法</a>のページに出している。
+					<a href={url('/method/')} class="underline underline-offset-2">計算方法</a
+					>のページに出している。
 				</dd>
 			</div>
 		</dl>
