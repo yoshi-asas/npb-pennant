@@ -10,9 +10,15 @@ export function percent(value: number, digits = 1): string {
 	return `${(value * 100).toFixed(digits)}%`;
 }
 
-/** "2026-09-26" -> "9/26（土）" */
+/**
+ * "2026-09-26" -> "9/26（土）"
+ *
+ * UTC で組み立てて UTC で読む。`+09:00` で組み立てて `getUTC*` で読むと、
+ * 指す瞬間が前日の15:00Z になるため常に1日早くずれる（実際に踏んだ）。
+ * ローカル時刻を使わないのは、CI（UTC）と手元（JST）で結果を変えないため。
+ */
 export function shortDate(iso: string): string {
-	const date = new Date(`${iso}T00:00:00+09:00`);
+	const date = new Date(`${iso}T00:00:00Z`);
 	const weekday = ['日', '月', '火', '水', '木', '金', '土'][date.getUTCDay()] ?? '';
 	return `${date.getUTCMonth() + 1}/${date.getUTCDate()}（${weekday}）`;
 }
