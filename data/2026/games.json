@@ -7673,41 +7673,41 @@
 		"date": "2026-09-06",
 		"home": "b",
 		"away": "m",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
 		"venue": "京セラD大阪",
-		"startTime": "13:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-06",
 		"home": "c",
 		"away": "g",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 0,
+		"awayScore": 4,
+		"status": "final",
 		"venue": "マツダスタジアム",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-06",
 		"home": "e",
 		"away": "f",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 3,
+		"awayScore": 6,
+		"status": "final",
 		"venue": "楽天モバイル",
-		"startTime": "16:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-06",
 		"home": "h",
 		"away": "l",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 2,
+		"awayScore": 5,
+		"status": "final",
 		"venue": "みずほPayPay",
-		"startTime": "13:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-06",
@@ -7715,7 +7715,7 @@
 		"away": "d",
 		"homeScore": null,
 		"awayScore": null,
-		"status": "scheduled",
+		"status": "cancelled",
 		"venue": "神宮",
 		"startTime": "17:00"
 	},
@@ -7723,11 +7723,11 @@
 		"date": "2026-09-06",
 		"home": "t",
 		"away": "db",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 1,
+		"awayScore": 4,
+		"status": "final",
 		"venue": "甲子園",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-08",
@@ -8831,6 +8831,16 @@
 	},
 	{
 		"date": "2026-10-01",
+		"home": "m",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-01",
 		"home": "t",
 		"away": "g",
 		"homeScore": null,
@@ -8905,7 +8915,7 @@
 		"away": "d",
 		"homeScore": null,
 		"awayScore": null,
-		"status": "cancelled",
+		"status": "scheduled",
 		"venue": "神宮",
 		"startTime": "18:00"
 	},
