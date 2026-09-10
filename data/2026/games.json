@@ -7853,51 +7853,51 @@
 		"date": "2026-09-10",
 		"home": "b",
 		"away": "l",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 4,
+		"awayScore": 8,
+		"status": "final",
 		"venue": "ほっと神戸",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-10",
 		"home": "db",
 		"away": "s",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 8,
+		"awayScore": 1,
+		"status": "final",
 		"venue": "横浜",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-10",
 		"home": "g",
 		"away": "d",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 5,
+		"awayScore": 3,
+		"status": "final",
 		"venue": "東京ドーム",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-10",
 		"home": "h",
 		"away": "f",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
 		"venue": "みずほPayPay",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-10",
 		"home": "m",
 		"away": "e",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 6,
+		"awayScore": 1,
+		"status": "final",
 		"venue": "ZOZOマリン",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-10",
@@ -7905,7 +7905,7 @@
 		"away": "c",
 		"homeScore": null,
 		"awayScore": null,
-		"status": "scheduled",
+		"status": "cancelled",
 		"venue": "甲子園",
 		"startTime": "18:00"
 	},
