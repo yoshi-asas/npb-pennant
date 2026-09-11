@@ -7913,31 +7913,31 @@
 		"date": "2026-09-11",
 		"home": "b",
 		"away": "l",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
 		"venue": "京セラD大阪",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-11",
 		"home": "c",
 		"away": "db",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 1,
+		"awayScore": 6,
+		"status": "final",
 		"venue": "マツダスタジアム",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-11",
 		"home": "h",
 		"away": "m",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 11,
+		"awayScore": 1,
+		"status": "final",
 		"venue": "みずほPayPay",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-12",
