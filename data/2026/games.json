@@ -8053,31 +8053,31 @@
 		"date": "2026-09-14",
 		"home": "db",
 		"away": "g",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 4,
+		"awayScore": 3,
+		"status": "final",
 		"venue": "横浜",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-14",
 		"home": "s",
 		"away": "c",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
 		"venue": "神宮",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-14",
 		"home": "t",
 		"away": "d",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 0,
+		"awayScore": 6,
+		"status": "final",
 		"venue": "甲子園",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-15",
