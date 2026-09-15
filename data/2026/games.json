@@ -8083,61 +8083,61 @@
 		"date": "2026-09-15",
 		"home": "b",
 		"away": "h",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 3,
+		"awayScore": 5,
+		"status": "final",
 		"venue": "京セラD大阪",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-15",
 		"home": "db",
 		"away": "g",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 13,
+		"awayScore": 2,
+		"status": "final",
 		"venue": "横浜",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-15",
 		"home": "e",
 		"away": "l",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 1,
+		"awayScore": 0,
+		"status": "final",
 		"venue": "楽天モバイル",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-15",
 		"home": "f",
 		"away": "m",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 6,
+		"awayScore": 7,
+		"status": "final",
 		"venue": "エスコンＦ",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-15",
 		"home": "s",
 		"away": "c",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 4,
+		"awayScore": 9,
+		"status": "final",
 		"venue": "神宮",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-15",
 		"home": "t",
 		"away": "d",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 1,
+		"awayScore": 4,
+		"status": "final",
 		"venue": "甲子園",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-16",
