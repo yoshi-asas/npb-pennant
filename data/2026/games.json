@@ -8143,21 +8143,21 @@
 		"date": "2026-09-16",
 		"home": "b",
 		"away": "h",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 0,
+		"awayScore": 4,
+		"status": "final",
 		"venue": "京セラD大阪",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-16",
 		"home": "m",
 		"away": "e",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 0,
+		"awayScore": 4,
+		"status": "final",
 		"venue": "ZOZOマリン",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-17",
@@ -8697,16 +8697,6 @@
 		"awayScore": null,
 		"status": "scheduled",
 		"venue": "ZOZOマリン",
-		"startTime": "18:00"
-	},
-	{
-		"date": "2026-09-27",
-		"home": "t",
-		"away": "d",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "cancelled",
-		"venue": "甲子園",
 		"startTime": "18:00"
 	},
 	{
