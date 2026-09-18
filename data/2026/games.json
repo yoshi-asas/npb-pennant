@@ -8213,31 +8213,31 @@
 		"date": "2026-09-18",
 		"home": "db",
 		"away": "s",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 1,
+		"awayScore": 3,
+		"status": "final",
 		"venue": "横浜",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-18",
 		"home": "g",
 		"away": "d",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 2,
+		"awayScore": 0,
+		"status": "final",
 		"venue": "東京ドーム",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-18",
 		"home": "t",
 		"away": "c",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
 		"venue": "甲子園",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-19",
