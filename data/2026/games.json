@@ -8413,61 +8413,61 @@
 		"date": "2026-09-22",
 		"home": "c",
 		"away": "g",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
 		"venue": "マツダスタジアム",
-		"startTime": "15:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-22",
 		"home": "db",
 		"away": "d",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 7,
+		"awayScore": 3,
+		"status": "final",
 		"venue": "横浜",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-22",
 		"home": "f",
 		"away": "e",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 6,
+		"awayScore": 5,
+		"status": "final",
 		"venue": "エスコンＦ",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-22",
 		"home": "h",
 		"away": "l",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 6,
+		"awayScore": 5,
+		"status": "final",
 		"venue": "みずほPayPay",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-22",
 		"home": "m",
 		"away": "b",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 4,
+		"awayScore": 6,
+		"status": "final",
 		"venue": "ZOZOマリン",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-22",
 		"home": "s",
 		"away": "t",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 7,
+		"awayScore": 9,
+		"status": "final",
 		"venue": "神宮",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-23",
