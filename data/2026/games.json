@@ -8553,51 +8553,51 @@
 		"date": "2026-09-25",
 		"home": "b",
 		"away": "h",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 0,
+		"awayScore": 9,
+		"status": "final",
 		"venue": "京セラD大阪",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-25",
 		"home": "c",
 		"away": "g",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
 		"venue": "マツダスタジアム",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-25",
 		"home": "db",
 		"away": "t",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
 		"venue": "横浜",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-25",
 		"home": "l",
 		"away": "m",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 2,
+		"awayScore": 6,
+		"status": "final",
 		"venue": "ベルーナドーム",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-25",
 		"home": "s",
 		"away": "d",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 5,
+		"awayScore": 4,
+		"status": "final",
 		"venue": "神宮",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-26",
@@ -8977,6 +8977,26 @@
 		"awayScore": null,
 		"status": "scheduled",
 		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-06",
+		"home": "t",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-07",
+		"home": "t",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
 		"startTime": "18:00"
 	}
 ]
