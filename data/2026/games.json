@@ -8703,31 +8703,31 @@
 		"date": "2026-09-28",
 		"home": "db",
 		"away": "c",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
 		"venue": "横浜",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-28",
 		"home": "l",
 		"away": "e",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 2,
+		"awayScore": 4,
+		"status": "final",
 		"venue": "ベルーナドーム",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-28",
 		"home": "m",
 		"away": "f",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 3,
+		"awayScore": 8,
+		"status": "final",
 		"venue": "ZOZOマリン",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-09-29",
@@ -8967,6 +8967,16 @@
 		"awayScore": null,
 		"status": "scheduled",
 		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-06",
+		"home": "e",
+		"away": "h",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "楽天モバイル",
 		"startTime": "18:00"
 	},
 	{
