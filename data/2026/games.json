@@ -8831,33 +8831,23 @@
 	},
 	{
 		"date": "2026-10-02",
-		"home": "c",
-		"away": "d",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "cancelled",
-		"venue": "マツダスタジアム",
-		"startTime": "18:00"
-	},
-	{
-		"date": "2026-10-02",
 		"home": "m",
 		"away": "h",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 3,
+		"awayScore": 4,
+		"status": "final",
 		"venue": "ZOZOマリン",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-10-02",
 		"home": "s",
 		"away": "g",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 5,
+		"awayScore": 1,
+		"status": "final",
 		"venue": "神宮",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-10-03",
@@ -8941,6 +8931,16 @@
 	},
 	{
 		"date": "2026-10-05",
+		"home": "db",
+		"away": "t",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "横浜",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-05",
 		"home": "e",
 		"away": "h",
 		"homeScore": null,
@@ -8957,6 +8957,16 @@
 		"awayScore": null,
 		"status": "scheduled",
 		"venue": "ZOZOマリン",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-05",
+		"home": "s",
+		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "神宮",
 		"startTime": "18:00"
 	},
 	{
@@ -8993,6 +9003,16 @@
 		"date": "2026-10-07",
 		"home": "t",
 		"away": "c",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-08",
+		"home": "t",
+		"away": "s",
 		"homeScore": null,
 		"awayScore": null,
 		"status": "scheduled",
