@@ -8903,31 +8903,31 @@
 		"date": "2026-10-04",
 		"home": "db",
 		"away": "t",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
 		"venue": "横浜",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-10-04",
 		"home": "m",
 		"away": "e",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 3,
+		"awayScore": 2,
+		"status": "final",
 		"venue": "ZOZOマリン",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-10-04",
 		"home": "s",
 		"away": "c",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 4,
+		"awayScore": 7,
+		"status": "final",
 		"venue": "神宮",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-10-05",
