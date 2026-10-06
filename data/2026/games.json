@@ -8951,33 +8951,23 @@
 	},
 	{
 		"date": "2026-10-06",
-		"home": "e",
-		"away": "h",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "cancelled",
-		"venue": "楽天モバイル",
-		"startTime": "18:00"
-	},
-	{
-		"date": "2026-10-06",
 		"home": "m",
 		"away": "l",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 0,
+		"awayScore": 3,
+		"status": "final",
 		"venue": "ZOZOマリン",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-10-06",
 		"home": "t",
 		"away": "c",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
 		"venue": "甲子園",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-10-07",
@@ -8997,6 +8987,86 @@
 		"awayScore": null,
 		"status": "scheduled",
 		"venue": "甲子園",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-10",
+		"home": "g",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-10-10",
+		"home": "l",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ベルーナドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-10-11",
+		"home": "g",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-10-11",
+		"home": "l",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ベルーナドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-10-12",
+		"home": "g",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "東京ドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-10-12",
+		"home": "l",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "scheduled",
+		"venue": "ベルーナドーム",
+		"startTime": "14:00"
+	},
+	{
+		"date": "2026-10-13",
+		"home": "g",
+		"away": "db",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "東京ドーム",
+		"startTime": "18:00"
+	},
+	{
+		"date": "2026-10-13",
+		"home": "l",
+		"away": "f",
+		"homeScore": null,
+		"awayScore": null,
+		"status": "cancelled",
+		"venue": "ベルーナドーム",
 		"startTime": "18:00"
 	}
 ]
