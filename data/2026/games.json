@@ -8973,11 +8973,11 @@
 		"date": "2026-10-07",
 		"home": "t",
 		"away": "c",
-		"homeScore": null,
-		"awayScore": null,
-		"status": "scheduled",
+		"homeScore": 2,
+		"awayScore": 1,
+		"status": "final",
 		"venue": "甲子園",
-		"startTime": "18:00"
+		"startTime": null
 	},
 	{
 		"date": "2026-10-08",
