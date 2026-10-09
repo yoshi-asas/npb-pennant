@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-10-08T20:58:36.874Z",
+	"generatedAt": "2026-10-09T20:27:35.071Z",
 	"season": 2026,
 	"asOfDate": "2026-10-08",
 	"playedGames": 858,
@@ -337,7 +337,7 @@
 			"remainingFixtures": 3,
 			"unscheduledFixtures": 0,
 			"iterations": 20000,
-			"elapsedMs": 125
+			"elapsedMs": 114
 		},
 		"pacific": {
 			"league": "pacific",
@@ -662,7 +662,7 @@
 			"remainingFixtures": 3,
 			"unscheduledFixtures": 0,
 			"iterations": 20000,
-			"elapsedMs": 80
+			"elapsedMs": 92
 		}
 	}
 }
